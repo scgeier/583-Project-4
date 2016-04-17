@@ -9,7 +9,11 @@
         "color": "blue",
         "incumbent": 
                 {"first":"Christopher", "last": "Murphy", "image": "./img/murphy.png"},
-        "candidates": []
+        "candidates": [],
+        "cx":30,
+        "cy":30,
+        "r":30,
+        "fill":"blue"
     },
     {
         "number": 33,
@@ -39,7 +43,11 @@
                     "bio": "",
                     "platform":""
                     
-                }]
+                }],
+        "cx":100,
+        "cy":100,
+        "r":40,
+        "fill":"red"
     },
     {
             "number": 87,
@@ -51,6 +59,10 @@
             "color": "blue",
             "incumbent": 
                     {"first": "Kirsten", "last": "Gillibrand", "image": "./img/gillibrand.png"},
-            "candidates":[]
+            "candidates":[],
+            "cx":150,
+            "cy":180,
+            "r":50,
+            "fill":"orange"
     }
 ]

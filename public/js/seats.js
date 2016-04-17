@@ -6,7 +6,7 @@ app.controller('SeatsController', ['$http', function($http) {
     this.seats = [];
     var _this = this;
 
-    $http.get('seats.json')
+    $http.get('js/seats.json')
         .success(function(data) {
             console.log(data);
             console.log(this);
@@ -15,6 +15,7 @@ app.controller('SeatsController', ['$http', function($http) {
         .error(function(msg) {
             console.log("This request failed.\n" + msg);
         });
-        
+
     
 }]);
+
