@@ -1,16 +1,16 @@
   
-var app = angular.module('seats', []);
+var app = angular.module('nations', []);
 
-app.controller('SeatsController', ['$http', function($http) {
+app.controller('NationsController', ['$http', function($http) {
 
-    this.seats = [];
+    this.nations = [];
     var _this = this;
 
-    $http.get('js/seats.json')
+    $http.get('js/nations.json')
         .success(function(data) {
             console.log(data);
             console.log(this);
-            _this.seats = data;
+            _this.nations = data;
         })
         .error(function(msg) {
             console.log("This request failed.\n" + msg);

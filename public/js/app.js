@@ -1,5 +1,5 @@
 
-var app = angular.module('myApp', ['seats']);
+var app = angular.module('myApp', ['nations']);
 
 
 app.controller('BaseController', function() {

@@ -1,0 +1,40 @@
+[
+ {
+  "id":"Algeria",
+  "location": "Northern Africa, bordering the Mediterranean Sea, between Morocco and Tunisia",
+  "background":"After more than a century of rule by France, Algerians fought through much of the 1950s to achieve independence in 1962. Algeria's primary political party, the National Liberation Front (FLN), was established in 1954 as part of the struggle for independence and has largely dominated politics since. The Government of Algeria in 1988 instituted a multi-party system in response to public unrest, but the surprising first round success of the Islamic Salvation Front (FIS) in the December 1991 balloting led the Algerian army to intervene and postpone the second round of elections to prevent what the secular elite feared would be an extremist-led government from assuming power. The army began a crackdown on the FIS that spurred FIS supporters to begin attacking government targets. Fighting escalated into an insurgency, which saw intense violence from 1992-98, resulting in over 100,000 deaths - many attributed to indiscriminate massacres of villagers by extremists. The government gained the upper hand by the late-1990s, and FIS's armed wing, the Islamic Salvation Army, disbanded in January 2000. ++ Abdelaziz BOUTEFLIKA, with the backing of the military, won the presidency in 1999 in an election widely viewed as fraudulent. He was reelected to a second term in 2004 and overwhelmingly won a third term in 2009, after the government amended the constitution in 2008 to remove presidential term limits. Longstanding problems continue to face BOUTEFLIKA, including large-scale unemployment, a shortage of housing, unreliable electrical and water supplies, government inefficiencies and corruption, and the continuing activities of extremist militants. ++ The Salafist Group for Preaching and Combat (GSPC) in 2006 merged with al-Qa'ida to form al-Qa'ida in the Lands of the Islamic Maghreb, which has launched an ongoing series of kidnappings and bombings targeting the Algerian Government and Western interests. The government in 2011 introduced some political reforms in response to the Arab Spring, including lifting the 19-year-old state of emergency restrictions and increasing women's quotas for elected assemblies. Parliamentary elections in May 2012 and municipal and provincial elections in November 2012 saw continued dominance by the FLN, with Islamist opposition parties performing poorly. Political protest activity in the country remained low in 2013, but small, sometimes violent socioeconomic demonstrations by disparate groups continued to be a common occurrence. Parliament in 2014 is expected to revise the constitution.",
+  "population": 39542166,
+  "coastline": 998,
+  "agriculture":17.5,
+  "perCapitaGdp":14400
+},
+{
+  "id":"Finland",
+  "location": "Near the North Pole",
+  "background":"Finland was a province and then a grand duchy under Sweden from the 12th to the 19th centuries, and an autonomous grand duchy of Russia after 1809. It gained complete independence in 1917. During World War II, Finland successfully defended its independence through cooperation with Germany and resisted subsequent invasions by the Soviet Union - albeit with some loss of territory. In the subsequent half century, Finland transformed from a farm/forest economy to a diversified modern industrial economy; per capita income is among the highest in Western Europe. A member of the European Union since 1995, Finland was the only Nordic state to join the euro single currency at its initiation in January 1999. In the 21st century, the key features of Finland's modern welfare state are high quality education, promotion of equality, and a national social welfare system - currently challenged by an aging population and the fluctuations of an export-driven economy.",
+  "population": 5476922,
+  "coastline": 1250,
+  "agriculture":7.5,
+  "perCapitaGdp":41200
+},
+{
+  "id":"Paraguay",
+  "location": "South America",
+  "background":"Paraguay achieved its independence from Spain in 1811. In the disastrous War of the Triple Alliance (1865-70) - between Paraguay and Argentina, Brazil, and Uruguay - Paraguay lost two-thirds of its adult males and much of its territory. The country stagnated economically for the next half century. Following the Chaco War of 1932-35 with Bolivia, Paraguay gained a large part of the Chaco lowland region. The 35-year military dictatorship of Alfredo STROESSNER ended in 1989, and, despite a marked increase in political infighting in recent years, Paraguay has held relatively free and regular presidential elections since the country's return to democracy.",
+  "population": 6783272,
+  "coastline": 0,
+  "agriculture":53.8,
+  "perCapitaGdp":8800
+},
+{
+  "id":"China",
+  "location": "Asia",
+  "background":"Yadda yadda.",
+  "population": 1367485388,
+  "coastline": 14500,
+  "agriculture":54.7,
+  "perCapitaGdp":14300
+}
+]
+
+    
