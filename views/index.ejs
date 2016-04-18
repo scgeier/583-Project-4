@@ -3,6 +3,7 @@
           <title>583 Final Project</title>
            
 <link rel="stylesheet" href="css/styles.css" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
     </head>
 
 <body ng-app="myApp" ng-controller="BaseController as base">
@@ -18,6 +19,28 @@
 
 <div id="chart"></div>
 <div id="summary"></div>
+
+<div id="dropdown">
+<form id="target">
+ <div class="menu-1">
+  <select class="xOptions">
+    <option value="d.coastline">Coastline</option>
+    <option value="d.agriculture">Agriculture</option>
+    <option value="d.population">Population</option>
+  </select>
+ </div>
+ <div class="menu-2">
+   <select class="yOptions">
+    <option value="d.coastline">Coastline</option>
+    <option value="d.agriculture">Agriculture</option>
+    <option value="d.population">Population</option>
+  </select>
+ </div>
+ <div>
+  <input type="submit">
+ </div>
+</form>
+</div>
 
 
 

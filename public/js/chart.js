@@ -1,3 +1,6 @@
+$(document).ready(function(){
+    console.log("DOM loaded!");
+    
 var margin = {top: 20, right: 20, bottom: 30, left: 100},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -28,8 +31,29 @@ var tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip")
                 .style("position", "absolute")
                 .style("opacity", 0);
-                
-d3.json("js/nations.json", function(error, data) {
+
+var selectedXAxis = function(d){
+  
+  $( "#target" ).submit(function( event ) {
+                        var chosenX = $("select.xOptions option:selected").val();
+                        console.log(chosenX);
+                        return chosenX;
+                       update();
+     });
+ };//close selected X function
+
+ var selectedYAxis = function(d){
+  
+  $( "#target" ).submit(function( event ) {
+                        var chosenY = $("select.yOptions option:selected").val();
+                        console.log(chosenY);
+                        return chosenY;
+                      update();
+     });
+ };//close selected X function
+   
+function update(){
+  d3.json("js/nations.json", function(error, data) {
   if (error) throw error;
 
   //data.forEach(function(d) {
@@ -68,8 +92,8 @@ svg.append("g")
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 4.5)
-      .attr("cx", function(d) { return x(d.agriculture); })
-      .attr("cy", function(d) { return y(d.perCapitaGdp); })
+      .attr("cx", selectedXAxis)
+      .attr("cy", selectedYAxis)
       .style("fill", function(d) { return color(d.population); })
       .on("mouseenter", function(d){
             if (d.background !== undefined) {
@@ -94,5 +118,11 @@ svg.append("g")
            .style("opacity", 1)
          tooltip.transition().style("opacity", 0)
       });
+  
+ 
+  });//close d3.json
+};//close update()
 
-});
+update();
+});//close document ready function
+
