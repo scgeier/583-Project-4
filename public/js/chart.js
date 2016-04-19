@@ -1,6 +1,10 @@
 $(document).ready(function(){
     console.log("DOM loaded!");
     
+var selectedXAxis = 'agriculture';
+var selectedYAxis = 'perCapitaGdp';
+var globalData = null;
+
 var margin = {top: 20, right: 20, bottom: 30, left: 100},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -31,30 +35,18 @@ var tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip")
                 .style("position", "absolute")
                 .style("opacity", 0);
-
-var selectedXAxis = function(d){
   
   $( "#target" ).submit(function( event ) {
-                        var chosenX = $("select.xOptions option:selected").val();
-                        console.log(chosenX);
-                        return chosenX;
-                       update();
-     });
- };//close selected X function
-
- var selectedYAxis = function(d){
-  
-  $( "#target" ).submit(function( event ) {
-                        var chosenY = $("select.yOptions option:selected").val();
-                        console.log(chosenY);
-                        return chosenY;
-                      update();
-     });
- };//close selected X function
+                        selectedYAxis = $("select.yOptions option:selected").val();
+                        selectedXAxis = $("select.xOptions option:selected").val();
+                        console.log(selectedXAxis + selectedYAxis);
+                        update();
+     }); //close selected X function
    
-function update(){
+function init(){
   d3.json("js/nations.json", function(error, data) {
   if (error) throw error;
+  globalData = data;
 
   //data.forEach(function(d) {
     //d.sepalLength = +d.sepalLength;
@@ -62,8 +54,8 @@ function update(){
   //});
 
 //Set the X and Y axes using the min amd max values in the given array//
-  x.domain(d3.extent(data, function(d) { return d.agriculture; })).nice();
-  y.domain(d3.extent(data, function(d) { return d.perCapitaGdp; })).nice();
+  x.domain(d3.extent(data, function(d) { return d[selectedXAxis]; })).nice();
+  y.domain(d3.extent(data, function(d) { return d[selectedYAxis]; })).nice();
 
 svg.append("g")
       .attr("class", "x axis")
@@ -72,9 +64,9 @@ svg.append("g")
     .append("text")
       .attr("class", "label")
       .attr("x", width)
-      .attr("y", -6)
-      .style("text-anchor", "end")
-      .text("Percent of Land Used for Agriculture");
+      .attr("y", -10)
+      //.style("text-anchor", "end")
+      //.text(function(d){ return d.agriculture; });
 
   svg.append("g")
       .attr("class", "y axis")
@@ -84,16 +76,16 @@ svg.append("g")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Per Capita GDP")
+      //.style("text-anchor", "end")
+      //.text(function(d){ return d.perCapitaGdp; });
 
  svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 4.5)
-      .attr("cx", selectedXAxis)
-      .attr("cy", selectedYAxis)
+      .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
+      .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
       .style("fill", function(d) { return color(d.population); })
       .on("mouseenter", function(d){
             if (d.background !== undefined) {
@@ -121,8 +113,18 @@ svg.append("g")
   
  
   });//close d3.json
-};//close update()
+};//close init();
 
-update();
+function update() {
+     x.domain(d3.extent(globalData, function(d) { return d[selectedXAxis]; })).nice();
+     y.domain(d3.extent(globalData, function(d) { return d[selectedYAxis]; })).nice();
+    
+    svg.selectAll(".dot")
+      .transition()
+      .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
+      .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
+};
+
+init();
 });//close document ready function
 
