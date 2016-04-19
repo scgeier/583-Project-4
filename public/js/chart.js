@@ -2,7 +2,7 @@ $(document).ready(function(){
     console.log("DOM loaded!");
     
 var selectedXAxis = 'agriculture';
-var selectedYAxis = 'perCapitaGdp';
+var selectedYAxis = 'coastline';
 var globalData = null;
 
 var margin = {top: 20, right: 20, bottom: 30, left: 100},
@@ -15,7 +15,7 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-var color = d3.scale.category10();
+var color = d3.scale.category20();
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -36,24 +36,16 @@ var tooltip = d3.select("body").append("div")
                 .style("position", "absolute")
                 .style("opacity", 0);
   
-  $( "#target" ).submit(function( event ) {
-                        selectedYAxis = $("select.yOptions option:selected").val();
-                        selectedXAxis = $("select.xOptions option:selected").val();
-                        console.log(selectedXAxis + selectedYAxis);
-                        update();
-     }); //close selected X function
+  
    
 function init(){
   d3.json("js/nations.json", function(error, data) {
   if (error) throw error;
+  
   globalData = data;
 
-  //data.forEach(function(d) {
-    //d.sepalLength = +d.sepalLength;
-    //d.sepalWidth = +d.sepalWidth;
-  //});
 
-//Set the X and Y axes using the min amd max values in the given array//
+//Set the X and Y axes using the min amd max values in the given array of values//
   x.domain(d3.extent(data, function(d) { return d[selectedXAxis]; })).nice();
   y.domain(d3.extent(data, function(d) { return d[selectedYAxis]; })).nice();
 
@@ -64,7 +56,7 @@ svg.append("g")
     .append("text")
       .attr("class", "label")
       .attr("x", width)
-      .attr("y", -10)
+      .attr("y", -6)
       //.style("text-anchor", "end")
       //.text(function(d){ return d.agriculture; });
 
@@ -111,19 +103,34 @@ svg.append("g")
          tooltip.transition().style("opacity", 0)
       });
   
- 
-  });//close d3.json
-};//close init();
+  $( "#target" ).submit(function( event ) {
+                        selectedYAxis = $("select.yOptions option:selected").val();
+                        selectedXAxis = $("select.xOptions option:selected").val();
+                        console.log(selectedXAxis + selectedYAxis);
+                        update();
+     }); //close selected X function
+  
 
-function update() {
-     x.domain(d3.extent(globalData, function(d) { return d[selectedXAxis]; })).nice();
-     y.domain(d3.extent(globalData, function(d) { return d[selectedYAxis]; })).nice();
+  function update() {
+    
+     x.domain(d3.extent(data, function(d) { return d[selectedXAxis]; })).nice();
+     y.domain(d3.extent(data, function(d) { return d[selectedYAxis]; })).nice();
+
+     svg.selectAll("g.x.axis")
+        .call(xAxis);
+        
+     svg.selectAll("g.y.axis")
+        .call(yAxis);
     
     svg.selectAll(".dot")
       .transition()
+      .duration(2000)
       .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
       .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
 };
+ 
+  });//close d3.json
+};//close init();
 
 init();
 });//close document ready function
