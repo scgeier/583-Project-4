@@ -13,7 +13,7 @@
 
 <div ng-controller="NationsController as nationCtrl">
   <ul>
-    <li ng-repeat="nation in nationCtrl.nations">{{nation.id}} {{nation.population}} {{nation.agriculture}}</li>
+    <!--<li ng-repeat="nation in nationCtrl.nations">{{nation.name}}</li>-->
   </ul> 
 </div>
 
@@ -24,16 +24,16 @@
 <form id="target">
  <div class="menu-1">
   <select class="xOptions">
-    <option value="coastline">Coastline</option>
-    <option value="agriculture">Agriculture</option>
     <option value="population">Population</option>
+    <option value="healthExpenditures">Percent of GDP on Healthcare</option>
+    <option value="obesity">Obesity Rate</option>
   </select>
  </div>
  <div class="menu-2">
    <select class="yOptions">
-    <option value="coastline">Coastline</option>
-    <option value="agriculture">Agriculture</option>
     <option value="population">Population</option>
+    <option value="healthExpenditures">Percent of GDP on Healthcare</option>
+    <option value="obesity">Obesity Rate</option>
   </select>
  </div>
  <div>

@@ -1,8 +1,8 @@
 $(document).ready(function(){
     console.log("DOM loaded!");
     
-var selectedXAxis = 'agriculture';
-var selectedYAxis = 'coastline';
+var selectedXAxis = 'obesity';
+var selectedYAxis = 'healthExpenditures';
 var globalData = null;
 
 var margin = {top: 20, right: 20, bottom: 30, left: 100},
@@ -102,6 +102,7 @@ svg.append("g")
            .style("opacity", 1)
          tooltip.transition().style("opacity", 0)
       });
+
   
   $( "#target" ).submit(function( event ) {
                         selectedYAxis = $("select.yOptions option:selected").val();
@@ -125,6 +126,7 @@ svg.append("g")
     svg.selectAll(".dot")
       .transition()
       .duration(2000)
+      .ease("bounce")
       .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
       .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
 };
