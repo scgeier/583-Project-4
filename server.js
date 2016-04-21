@@ -18,7 +18,7 @@ app.get('/', function(req,res){
    res.render('index', data);
   });
 
-app.get('/:id', function(req,res){
+app.get('/rankings', function(req,res){
    res.render('rankings', data);
   });
 
