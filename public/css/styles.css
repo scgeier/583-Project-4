@@ -1,6 +1,6 @@
-body{
+/*body{
     background:#dddddd;
-}
+}*/
 
 .axis path,.axis line {
   fill: none;
@@ -10,4 +10,19 @@ body{
 
 .dot {
   stroke: #000;
+}
+
+#nation-table {
+    margin-left:5%;
+    margin-right:10%;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
 }

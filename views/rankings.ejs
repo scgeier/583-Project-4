@@ -10,40 +10,8 @@
 <body ng-app="myApp" ng-controller="BaseController as base">
 
 <container>
- <h1>Hello, insomnia!</h1>
- <a href="rankings.ejs">Rankings</a>
- <a id="territories" href="territories.ejs">Territories</a>
+ <h1>CIA World Factbook Rankings by Category</h1>
 
-<div class="row">
-<div class="col-md-6">
- <div id="chart"></div>
-</div>
-
-<div class="col-md-6">
-    <div id="dropdown">
-<form id="target">
- <div class="menu-1">
-  <select class="xOptions">
-    <option value="population">Population</option>
-    <option value="healthExpenditures">Percent of GDP on Healthcare</option>
-    <option value="obesity">Obesity Rate</option>
-  </select>
- </div>
- <div class="menu-2">
-   <select class="yOptions">
-    <option value="population">Population</option>
-    <option value="healthExpenditures">Percent of GDP on Healthcare</option>
-    <option value="obesity">Obesity Rate</option>
-  </select>
- </div>
- <div>
-  <input type="submit">
- </div>
-</form>
-</div>
- <div class="summary"></div>
-</div>
-</div>
 
 <div class="row">
     <div class="col-md-12" id="nation-table">
@@ -87,12 +55,6 @@
 </div>
 </div>
     
-<div class="row">
-    <div class="col-xs-12">
-  <div id="force"></div>  
-</div>
-</div>
-
 
 
 </container>
@@ -100,8 +62,7 @@
  <script type="text/javascript" src="js/app.js"></script>
  <script type="text/javascript" src="js/nations.js"></script>
  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
- <script src="js/chart.js"></script>
-  <script src="js/force.js"></script>
+
 
     </body>
 </html>

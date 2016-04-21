@@ -150,7 +150,7 @@ svg.append("g")
      svg.selectAll(".dot")
       .transition()
       .duration(2000)
-      .ease("bounce")
+      .ease("elastic")
       .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
       .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
 };

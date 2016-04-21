@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 var data;
+
  
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -16,6 +17,15 @@ app.set('view engine', 'ejs');
 app.get('/', function(req,res){
    res.render('index', data);
   });
+
+app.get('/:id', function(req,res){
+   res.render('rankings', data);
+  });
+
+app.get('/territories', function(req,res){
+   res.render('territories', data);
+  });
+
 
 
 app.listen(8080, function(){
