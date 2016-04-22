@@ -8,7 +8,16 @@
     "infantMortality": 115.08,
     "lifeExpectancy": 50.87,
     "healthExpenditures": 8.6,
-    "obesity": 2.2
+    "obesity": 2.2,
+    "education": 0,
+    "unemployment": 35,
+    "area": 652230,
+    "budget": -0.6,
+    "debt": 1.28,
+    "fossilFuels": 23.5,
+    "internet": 5.83,
+    "airports": 52,
+    "military": null
   },
   {
     "name": "Albania",
@@ -19,7 +28,16 @@
     "infantMortality": 12.75,
     "lifeExpectancy": 78.13,
     "healthExpenditures": 6,
-    "obesity": 21.3
+    "obesity": 21.3,
+    "education": 3.3,
+    "unemployment": 13.3,
+    "area": 28748,
+    "budget": -6,
+    "debt": 7.854,
+    "fossilFuels": 5.6,
+    "internet": 56.12,
+    "airports": 4,
+    "military": 0.85
   },
   {
     "name": "Algeria",
@@ -30,7 +48,16 @@
     "infantMortality": 20.98,
     "lifeExpectancy": 76.59,
     "healthExpenditures": 5.2,
-    "obesity": 16
+    "obesity": 16,
+    "education": 4.3,
+    "unemployment": 9.7,
+    "area": 2381741,
+    "budget": -4.2,
+    "debt": 4.872,
+    "fossilFuels": 98,
+    "internet": 16.44,
+    "airports": 157,
+    "military": 4.48
   },
   {
     "name": "American Samoa",
@@ -41,7 +68,16 @@
     "infantMortality": 8.69,
     "lifeExpectancy": 75.14,
     "healthExpenditures": null,
-    "obesity": 74.6
+    "obesity": 74.6,
+    "education": null,
+    "unemployment": 29.8,
+    "area": 199,
+    "budget": -6.1,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": null,
+    "airports": 3,
+    "military": null
   },
   {
     "name": "Andorra",
@@ -52,7 +88,16 @@
     "infantMortality": 3.65,
     "lifeExpectancy": 82.72,
     "healthExpenditures": 8.3,
-    "obesity": 25.2
+    "obesity": 25.2,
+    "education": null,
+    "unemployment": 4,
+    "area": 468,
+    "budget": -0.3,
+    "debt": null,
+    "fossilFuels": 61.3,
+    "internet": 89.16,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Angola",
@@ -63,7 +108,16 @@
     "infantMortality": 78.26,
     "lifeExpectancy": 55.63,
     "healthExpenditures": 3.5,
-    "obesity": 6.4
+    "obesity": 6.4,
+    "education": 3.5,
+    "unemployment": null,
+    "area": 1246700,
+    "budget": -4.7,
+    "debt": 22.93,
+    "fossilFuels": 39.6,
+    "internet": 18.85,
+    "airports": 176,
+    "military": 3.63
   },
   {
     "name": "Anguilla",
@@ -74,7 +128,16 @@
     "infantMortality": 3.37,
     "lifeExpectancy": 81.31,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 2.8,
+    "unemployment": 8,
+    "area": 91,
+    "budget": -0.5,
+    "debt": 0.0088,
+    "fossilFuels": null,
+    "internet": 22.54,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Antigua and Barbuda",
@@ -85,7 +148,16 @@
     "infantMortality": 12.87,
     "lifeExpectancy": 76.33,
     "healthExpenditures": 5.2,
-    "obesity": 25.6
+    "obesity": 25.6,
+    "education": 2.4,
+    "unemployment": 11,
+    "area": 443,
+    "budget": 2.7,
+    "debt": 0.4412,
+    "fossilFuels": 100,
+    "internet": 88.6,
+    "airports": 3,
+    "military": null
   },
   {
     "name": "Argentina",
@@ -96,7 +168,16 @@
     "infantMortality": 9.69,
     "lifeExpectancy": 77.69,
     "healthExpenditures": 8.5,
-    "obesity": 29.7
+    "obesity": 29.7,
+    "education": 6.3,
+    "unemployment": 7.7,
+    "area": 2780400,
+    "budget": -2.5,
+    "debt": 115.7,
+    "fossilFuels": 68.3,
+    "internet": 59.17,
+    "airports": 1138,
+    "military": 0.91
   },
   {
     "name": "Armenia",
@@ -107,7 +188,16 @@
     "infantMortality": 13.51,
     "lifeExpectancy": 74.37,
     "healthExpenditures": 4.5,
-    "obesity": 24
+    "obesity": 24,
+    "education": 3.3,
+    "unemployment": 15.9,
+    "area": 29743,
+    "budget": -1.7,
+    "debt": 7.943,
+    "fossilFuels": 54.9,
+    "internet": 42.53,
+    "airports": 11,
+    "military": 4.1
   },
   {
     "name": "Aruba",
@@ -118,7 +208,16 @@
     "infantMortality": 11.37,
     "lifeExpectancy": 76.56,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 6,
+    "unemployment": 6.9,
+    "area": 180,
+    "budget": -7.4,
+    "debt": 0.5334,
+    "fossilFuels": 90.6,
+    "internet": 78.19,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Australia",
@@ -129,7 +228,16 @@
     "infantMortality": 4.37,
     "lifeExpectancy": 82.15,
     "healthExpenditures": 9.1,
-    "obesity": 26.8
+    "obesity": 26.8,
+    "education": 5.6,
+    "unemployment": 6,
+    "area": 7741220,
+    "budget": -1.9,
+    "debt": 1480,
+    "fossilFuels": 79.7,
+    "internet": 88.79,
+    "airports": 480,
+    "military": 1.71
   },
   {
     "name": "Austria",
@@ -140,7 +248,16 @@
     "infantMortality": 3.45,
     "lifeExpectancy": 81.39,
     "healthExpenditures": 11.5,
-    "obesity": 20.9
+    "obesity": 20.9,
+    "education": 5.9,
+    "unemployment": 4.5,
+    "area": 83871,
+    "budget": -3,
+    "debt": 812,
+    "fossilFuels": 28.3,
+    "internet": 83.09,
+    "airports": 52,
+    "military": 0.81
   },
   {
     "name": "Azerbaijan",
@@ -151,7 +268,16 @@
     "infantMortality": 25.68,
     "lifeExpectancy": 72.2,
     "healthExpenditures": 5.4,
-    "obesity": 23.8
+    "obesity": 23.8,
+    "education": 2.4,
+    "unemployment": 5.4,
+    "area": 86600,
+    "budget": -1.3,
+    "debt": 12.91,
+    "fossilFuels": 84.4,
+    "internet": 59.3,
+    "airports": 37,
+    "military": 4.7
   },
   {
     "name": "Bahamas, The",
@@ -162,7 +288,16 @@
     "infantMortality": 11.92,
     "lifeExpectancy": 72.2,
     "healthExpenditures": 7.5,
-    "obesity": 34.7
+    "obesity": 34.7,
+    "education": null,
+    "unemployment": 16.2,
+    "area": 13880,
+    "budget": -4.6,
+    "debt": 17.56,
+    "fossilFuels": 100,
+    "internet": 76.16,
+    "airports": 61,
+    "military": null
   },
   {
     "name": "Bahrain",
@@ -173,7 +308,16 @@
     "infantMortality": 9.35,
     "lifeExpectancy": 78.73,
     "healthExpenditures": 3.9,
-    "obesity": 32.9
+    "obesity": 32.9,
+    "education": 2.6,
+    "unemployment": 3.8,
+    "area": 760,
+    "budget": -3.2,
+    "debt": 18.72,
+    "fossilFuels": 100,
+    "internet": 96.54,
+    "airports": 4,
+    "military": 3.14
   },
   {
     "name": "Bangladesh",
@@ -184,7 +328,16 @@
     "infantMortality": 44.09,
     "lifeExpectancy": 70.94,
     "healthExpenditures": 3.6,
-    "obesity": 1.1
+    "obesity": 1.1,
+    "education": 2.2,
+    "unemployment": 5,
+    "area": 143998,
+    "budget": -3.3,
+    "debt": 33.2,
+    "fossilFuels": 97.7,
+    "internet": 6.75,
+    "airports": 18,
+    "military": 1.15
   },
   {
     "name": "Barbados",
@@ -195,7 +348,16 @@
     "infantMortality": 10.42,
     "lifeExpectancy": 75.18,
     "healthExpenditures": 6.3,
-    "obesity": 34.7
+    "obesity": 34.7,
+    "education": 5.6,
+    "unemployment": 11.5,
+    "area": 430,
+    "budget": -9.4,
+    "debt": 4.49,
+    "fossilFuels": 100,
+    "internet": 78.25,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Belarus",
@@ -206,7 +368,16 @@
     "infantMortality": 3.62,
     "lifeExpectancy": 72.48,
     "healthExpenditures": 5,
-    "obesity": 24.3
+    "obesity": 24.3,
+    "education": 5.1,
+    "unemployment": 1,
+    "area": 207600,
+    "budget": -0.2,
+    "debt": 40.33,
+    "fossilFuels": 99.7,
+    "internet": 52.14,
+    "airports": 65,
+    "military": 1.2
   },
   {
     "name": "Belgium",
@@ -217,7 +388,16 @@
     "infantMortality": 3.41,
     "lifeExpectancy": 80.88,
     "healthExpenditures": 10.8,
-    "obesity": 22.1
+    "obesity": 22.1,
+    "education": 6.6,
+    "unemployment": 8.5,
+    "area": 30528,
+    "budget": -2.5,
+    "debt": 1424,
+    "fossilFuels": 46.3,
+    "internet": 83.89,
+    "airports": 41,
+    "military": 1.05
   },
   {
     "name": "Belize",
@@ -228,7 +408,16 @@
     "infantMortality": 19.82,
     "lifeExpectancy": 68.59,
     "healthExpenditures": 5.8,
-    "obesity": 33.7
+    "obesity": 33.7,
+    "education": 6.6,
+    "unemployment": 15.5,
+    "area": 22966,
+    "budget": -3,
+    "debt": 1.24,
+    "fossilFuels": 48.8,
+    "internet": 26.25,
+    "airports": 47,
+    "military": null
   },
   {
     "name": "Benin",
@@ -239,7 +428,16 @@
     "infantMortality": 55.68,
     "lifeExpectancy": 61.47,
     "healthExpenditures": 4.5,
-    "obesity": 6
+    "obesity": 6,
+    "education": 5.3,
+    "unemployment": null,
+    "area": 112622,
+    "budget": -2,
+    "debt": 2.458,
+    "fossilFuels": 99.4,
+    "internet": 4.22,
+    "airports": 6,
+    "military": 1.03
   },
   {
     "name": "Bermuda",
@@ -250,7 +448,16 @@
     "infantMortality": 2.48,
     "lifeExpectancy": 81.15,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 2.6,
+    "unemployment": 8,
+    "area": 54,
+    "budget": -3.9,
+    "debt": 1.4,
+    "fossilFuels": 98.2,
+    "internet": 97.3,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Bhutan",
@@ -261,7 +468,16 @@
     "infantMortality": 35.91,
     "lifeExpectancy": 69.51,
     "healthExpenditures": 3.8,
-    "obesity": 5.3
+    "obesity": 5.3,
+    "education": 4.7,
+    "unemployment": 2.9,
+    "area": 38394,
+    "budget": -9.9,
+    "debt": 1.707,
+    "fossilFuels": 0.7,
+    "internet": 27.37,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Bolivia",
@@ -272,7 +488,16 @@
     "infantMortality": 37.49,
     "lifeExpectancy": 68.86,
     "healthExpenditures": 5.8,
-    "obesity": 17.9
+    "obesity": 17.9,
+    "education": 6.9,
+    "unemployment": 7.3,
+    "area": 1098581,
+    "budget": -0.5,
+    "debt": 8.073,
+    "fossilFuels": 63.6,
+    "internet": 36.11,
+    "airports": 855,
+    "military": 1.47
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -283,7 +508,16 @@
     "infantMortality": 5.72,
     "lifeExpectancy": 76.55,
     "healthExpenditures": 9.9,
-    "obesity": 26.5
+    "obesity": 26.5,
+    "education": null,
+    "unemployment": 44.3,
+    "area": 51197,
+    "budget": -3.6,
+    "debt": 11.37,
+    "fossilFuels": 43.3,
+    "internet": 67.23,
+    "airports": 24,
+    "military": 1.35
   },
   {
     "name": "Botswana",
@@ -294,7 +528,16 @@
     "infantMortality": 8.93,
     "lifeExpectancy": 54.18,
     "healthExpenditures": 5.3,
-    "obesity": 11.2
+    "obesity": 11.2,
+    "education": 9.5,
+    "unemployment": 17.8,
+    "area": 581730,
+    "budget": 1.7,
+    "debt": 2.505,
+    "fossilFuels": 100,
+    "internet": 12.99,
+    "airports": 74,
+    "military": 2.31
   },
   {
     "name": "Brazil",
@@ -305,7 +548,16 @@
     "infantMortality": 18.6,
     "lifeExpectancy": 73.53,
     "healthExpenditures": 9.3,
-    "obesity": 18.8
+    "obesity": 18.8,
+    "education": 5.8,
+    "unemployment": 5.5,
+    "area": 8514877,
+    "budget": 1.2,
+    "debt": 535.4,
+    "fossilFuels": 18.8,
+    "internet": 52.97,
+    "airports": 4093,
+    "military": 1.47
   },
   {
     "name": "British Virgin Islands",
@@ -316,7 +568,16 @@
     "infantMortality": 12.98,
     "lifeExpectancy": 78.46,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 4.4,
+    "unemployment": 8.7,
+    "area": 151,
+    "budget": 0,
+    "debt": 0.0361,
+    "fossilFuels": 100,
+    "internet": 11.96,
+    "airports": 4,
+    "military": null
   },
   {
     "name": "Brunei",
@@ -327,7 +588,16 @@
     "infantMortality": 10.16,
     "lifeExpectancy": 76.97,
     "healthExpenditures": 2.3,
-    "obesity": 7.5
+    "obesity": 7.5,
+    "education": 3.5,
+    "unemployment": 2.6,
+    "area": 5765,
+    "budget": 14.3,
+    "debt": 0,
+    "fossilFuels": 100,
+    "internet": 64.52,
+    "airports": 1,
+    "military": 2.43
   },
   {
     "name": "Bulgaria",
@@ -338,7 +608,16 @@
     "infantMortality": 8.66,
     "lifeExpectancy": 74.39,
     "healthExpenditures": 7.4,
-    "obesity": 23.7
+    "obesity": 23.7,
+    "education": 4.1,
+    "unemployment": 11,
+    "area": 110879,
+    "budget": -3,
+    "debt": 54.04,
+    "fossilFuels": 48.1,
+    "internet": 57.05,
+    "airports": 68,
+    "military": 1.46
   },
   {
     "name": "Burkina Faso",
@@ -349,7 +628,16 @@
     "infantMortality": 75.32,
     "lifeExpectancy": 55.12,
     "healthExpenditures": 6.2,
-    "obesity": 2.3
+    "obesity": 2.3,
+    "education": 3.4,
+    "unemployment": 77,
+    "area": 274200,
+    "budget": -3.7,
+    "debt": 2.974,
+    "fossilFuels": 86.6,
+    "internet": 4.13,
+    "airports": 23,
+    "military": 1.39
   },
   {
     "name": "Burma",
@@ -360,7 +648,16 @@
     "infantMortality": 43.55,
     "lifeExpectancy": 66.29,
     "healthExpenditures": 1.8,
-    "obesity": 4
+    "obesity": 4,
+    "education": 0.8,
+    "unemployment": 5.1,
+    "area": 676578,
+    "budget": -2.9,
+    "debt": 2.491,
+    "fossilFuels": 26.1,
+    "internet": 1.15,
+    "airports": 64,
+    "military": null
   },
   {
     "name": "Burundi",
@@ -371,7 +668,16 @@
     "infantMortality": 61.89,
     "lifeExpectancy": 60.09,
     "healthExpenditures": 8.1,
-    "obesity": 2.9
+    "obesity": 2.9,
+    "education": 5.8,
+    "unemployment": null,
+    "area": 27830,
+    "budget": -2.8,
+    "debt": 0.7421,
+    "fossilFuels": 1.9,
+    "internet": 1.35,
+    "airports": 7,
+    "military": 2.39
   },
   {
     "name": "Cabo Verde",
@@ -382,7 +688,16 @@
     "infantMortality": 23.45,
     "lifeExpectancy": 71.85,
     "healthExpenditures": 3.9,
-    "obesity": 10
+    "obesity": 10,
+    "education": 5,
+    "unemployment": 21,
+    "area": 4033,
+    "budget": -7.1,
+    "debt": 1.559,
+    "fossilFuels": 68.4,
+    "internet": 39.18,
+    "airports": 9,
+    "military": null
   },
   {
     "name": "Cambodia",
@@ -393,7 +708,16 @@
     "infantMortality": 50.04,
     "lifeExpectancy": 64.14,
     "healthExpenditures": 5.4,
-    "obesity": 2.1
+    "obesity": 2.1,
+    "education": 2.6,
+    "unemployment": 0,
+    "area": 181035,
+    "budget": -2.1,
+    "debt": 7.377,
+    "fossilFuels": 63,
+    "internet": 5.29,
+    "airports": 16,
+    "military": 1.54
   },
   {
     "name": "Cameroon",
@@ -404,7 +728,16 @@
     "infantMortality": 53.63,
     "lifeExpectancy": 57.93,
     "healthExpenditures": 5.1,
-    "obesity": 10.3
+    "obesity": 10.3,
+    "education": 3.2,
+    "unemployment": 30,
+    "area": 475440,
+    "budget": -4.4,
+    "debt": 5.006,
+    "fossilFuels": 28.6,
+    "internet": 6.32,
+    "airports": 33,
+    "military": 1.42
   },
   {
     "name": "Canada",
@@ -415,7 +748,16 @@
     "infantMortality": 4.65,
     "lifeExpectancy": 81.76,
     "healthExpenditures": 10.9,
-    "obesity": 26.2
+    "obesity": 26.2,
+    "education": 5.4,
+    "unemployment": 6.9,
+    "area": 9984670,
+    "budget": -2.3,
+    "debt": 1331,
+    "fossilFuels": 31.3,
+    "internet": 92.31,
+    "airports": 1467,
+    "military": 1.24
   },
   {
     "name": "Cayman Islands",
@@ -426,7 +768,16 @@
     "infantMortality": 6.08,
     "lifeExpectancy": 81.13,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 4,
+    "area": 264,
+    "budget": 1.1,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": 77.73,
+    "airports": 3,
+    "military": null
   },
   {
     "name": "Central African Republic",
@@ -437,7 +788,16 @@
     "infantMortality": 90.63,
     "lifeExpectancy": 51.81,
     "healthExpenditures": 3.8,
-    "obesity": 3.5
+    "obesity": 3.5,
+    "education": 1.2,
+    "unemployment": 8,
+    "area": 622984,
+    "budget": -2.8,
+    "debt": 0.5606,
+    "fossilFuels": 43.2,
+    "internet": 3.36,
+    "airports": 39,
+    "military": null
   },
   {
     "name": "Chad",
@@ -448,7 +808,16 @@
     "infantMortality": 88.69,
     "lifeExpectancy": 49.81,
     "healthExpenditures": 3.5,
-    "obesity": 2.7
+    "obesity": 2.7,
+    "education": 2.3,
+    "unemployment": null,
+    "area": 1284000,
+    "budget": -5.2,
+    "debt": 3.222,
+    "fossilFuels": 100,
+    "internet": 2.35,
+    "airports": 59,
+    "military": null
   },
   {
     "name": "Chile",
@@ -459,7 +828,16 @@
     "infantMortality": 6.86,
     "lifeExpectancy": 78.61,
     "healthExpenditures": 7.2,
-    "obesity": 29.4
+    "obesity": 29.4,
+    "education": 4.5,
+    "unemployment": 6.5,
+    "area": 756102,
+    "budget": -2.1,
+    "debt": 140,
+    "fossilFuels": 60.6,
+    "internet": 65.11,
+    "airports": 481,
+    "military": 2.04
   },
   {
     "name": "China",
@@ -470,7 +848,16 @@
     "infantMortality": 12.44,
     "lifeExpectancy": 75.41,
     "healthExpenditures": 5.4,
-    "obesity": 5.7
+    "obesity": 5.7,
+    "education": null,
+    "unemployment": 4.1,
+    "area": 9596960,
+    "budget": -2.9,
+    "debt": 894.9,
+    "fossilFuels": 69.1,
+    "internet": 45.82,
+    "airports": 507,
+    "military": 1.99
   },
   {
     "name": "Christmas Island",
@@ -481,7 +868,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 135,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 30.33,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Cocos (Keeling) Islands",
@@ -492,7 +888,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 60,
+    "area": 14,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Colombia",
@@ -503,7 +908,16 @@
     "infantMortality": 14.58,
     "lifeExpectancy": 75.48,
     "healthExpenditures": 6.8,
-    "obesity": 17.3
+    "obesity": 17.3,
+    "education": 4.4,
+    "unemployment": 9.2,
+    "area": 1138910,
+    "budget": -1.5,
+    "debt": 84,
+    "fossilFuels": 32.4,
+    "internet": 51.99,
+    "airports": 836,
+    "military": 3.28
   },
   {
     "name": "Comoros",
@@ -514,7 +928,16 @@
     "infantMortality": 63.55,
     "lifeExpectancy": 63.85,
     "healthExpenditures": 4.5,
-    "obesity": 4.4
+    "obesity": 4.4,
+    "education": 7.6,
+    "unemployment": 20,
+    "area": 2235,
+    "budget": -1.1,
+    "debt": 0.2516,
+    "fossilFuels": 95.5,
+    "internet": 6.43,
+    "airports": 4,
+    "military": null
   },
   {
     "name": "Congo, Democratic Republic of the",
@@ -525,7 +948,16 @@
     "infantMortality": 71.47,
     "lifeExpectancy": 56.93,
     "healthExpenditures": 5.6,
-    "obesity": 1.7
+    "obesity": 1.7,
+    "education": 2.5,
+    "unemployment": null,
+    "area": 2344858,
+    "budget": -0.3,
+    "debt": 6.955,
+    "fossilFuels": 1.4,
+    "internet": 0.37,
+    "airports": 198,
+    "military": 1.72
   },
   {
     "name": "Congo, Republic of the",
@@ -536,7 +968,16 @@
     "infantMortality": 57.92,
     "lifeExpectancy": 58.79,
     "healthExpenditures": 3.2,
-    "obesity": 4.7
+    "obesity": 4.7,
+    "education": 6.2,
+    "unemployment": 53,
+    "area": 342000,
+    "budget": 3.7,
+    "debt": 3.956,
+    "fossilFuels": 51.2,
+    "internet": 1.88,
+    "airports": 27,
+    "military": null
   },
   {
     "name": "Cook Islands",
@@ -547,7 +988,16 @@
     "infantMortality": 13.87,
     "lifeExpectancy": 75.6,
     "healthExpenditures": 3.4,
-    "obesity": 63.7
+    "obesity": 63.7,
+    "education": 3.1,
+    "unemployment": 13.1,
+    "area": 236,
+    "budget": 1,
+    "debt": 0.141,
+    "fossilFuels": 98.9,
+    "internet": 6.85,
+    "airports": 11,
+    "military": null
   },
   {
     "name": "Costa Rica",
@@ -558,7 +1008,16 @@
     "infantMortality": 8.46,
     "lifeExpectancy": 78.4,
     "healthExpenditures": 10.1,
-    "obesity": 23.7
+    "obesity": 23.7,
+    "education": 6.3,
+    "unemployment": 8.5,
+    "area": 51100,
+    "budget": -5.5,
+    "debt": 18.37,
+    "fossilFuels": 29.3,
+    "internet": 49.85,
+    "airports": 161,
+    "military": null
   },
   {
     "name": "Cote d'Ivoire",
@@ -569,7 +1028,16 @@
     "infantMortality": 58.7,
     "lifeExpectancy": 58.34,
     "healthExpenditures": 7.1,
-    "obesity": 6.2
+    "obesity": 6.2,
+    "education": 4.6,
+    "unemployment": null,
+    "area": 322463,
+    "budget": -2.8,
+    "debt": 11.5,
+    "fossilFuels": 60.3,
+    "internet": 2.67,
+    "airports": 27,
+    "military": 1.65
   },
   {
     "name": "Croatia",
@@ -580,7 +1048,16 @@
     "infantMortality": 5.77,
     "lifeExpectancy": 76.61,
     "healthExpenditures": 6.8,
-    "obesity": 24.2
+    "obesity": 24.2,
+    "education": 4.3,
+    "unemployment": 21,
+    "area": 56594,
+    "budget": -4.9,
+    "debt": 61.04,
+    "fossilFuels": 48.8,
+    "internet": 64.95,
+    "airports": 69,
+    "military": 1.7
   },
   {
     "name": "Cuba",
@@ -591,7 +1068,16 @@
     "infantMortality": 4.63,
     "lifeExpectancy": 78.39,
     "healthExpenditures": 8.6,
-    "obesity": 21.5
+    "obesity": 21.5,
+    "education": 12.8,
+    "unemployment": 3.6,
+    "area": 110860,
+    "budget": null,
+    "debt": 25.23,
+    "fossilFuels": 98.8,
+    "internet": 27.2,
+    "airports": 133,
+    "military": null
   },
   {
     "name": "Curacao",
@@ -602,7 +1088,16 @@
     "infantMortality": null,
     "lifeExpectancy": 77.98,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 13,
+    "area": 444,
+    "budget": -0.4,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Cyprus",
@@ -613,7 +1108,16 @@
     "infantMortality": 8.36,
     "lifeExpectancy": 78.51,
     "healthExpenditures": 7.3,
-    "obesity": 25.5
+    "obesity": 25.5,
+    "education": 7.3,
+    "unemployment": 15.9,
+    "area": 9251,
+    "budget": -5,
+    "debt": 95.28,
+    "fossilFuels": 86.9,
+    "internet": 62.13,
+    "airports": 15,
+    "military": 2.05
   },
   {
     "name": "Czech Republic",
@@ -624,7 +1128,16 @@
     "infantMortality": 2.63,
     "lifeExpectancy": 78.48,
     "healthExpenditures": 7.7,
-    "obesity": 32.7
+    "obesity": 32.7,
+    "education": 4.2,
+    "unemployment": 7.9,
+    "area": 78867,
+    "budget": -1.7,
+    "debt": 116.1,
+    "fossilFuels": 63.6,
+    "internet": 77.03,
+    "airports": 128,
+    "military": 1.08
   },
   {
     "name": "Denmark",
@@ -635,7 +1148,16 @@
     "infantMortality": 4.05,
     "lifeExpectancy": 79.25,
     "healthExpenditures": 11.2,
-    "obesity": 18.2
+    "obesity": 18.2,
+    "education": 8.7,
+    "unemployment": 5.2,
+    "area": 43094,
+    "budget": -1.4,
+    "debt": 586.7,
+    "fossilFuels": 61.5,
+    "internet": 96.75,
+    "airports": 80,
+    "military": 1.41
   },
   {
     "name": "Djibouti",
@@ -646,7 +1168,16 @@
     "infantMortality": 48.7,
     "lifeExpectancy": 62.79,
     "healthExpenditures": 8.8,
-    "obesity": 9.4
+    "obesity": 9.4,
+    "education": 8.4,
+    "unemployment": 60,
+    "area": 23200,
+    "budget": -5.3,
+    "debt": 0.8913,
+    "fossilFuels": 100,
+    "internet": 8.87,
+    "airports": 13,
+    "military": null
   },
   {
     "name": "Dominica",
@@ -657,7 +1188,16 @@
     "infantMortality": 11.25,
     "lifeExpectancy": 76.79,
     "healthExpenditures": 5.9,
-    "obesity": 24.9
+    "obesity": 24.9,
+    "education": 3.5,
+    "unemployment": 23,
+    "area": 751,
+    "budget": -7.2,
+    "debt": 0.299,
+    "fossilFuels": 20.4,
+    "internet": 58.96,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Dominican Republic",
@@ -668,7 +1208,16 @@
     "infantMortality": 18.84,
     "lifeExpectancy": 77.97,
     "healthExpenditures": 5.4,
-    "obesity": 21.2
+    "obesity": 21.2,
+    "education": 2.2,
+    "unemployment": 14.6,
+    "area": 48670,
+    "budget": -2.7,
+    "debt": 19.72,
+    "fossilFuels": 81.4,
+    "internet": 47.72,
+    "airports": 36,
+    "military": 0.61
   },
   {
     "name": "Ecuador",
@@ -679,7 +1228,16 @@
     "infantMortality": 17.38,
     "lifeExpectancy": 76.56,
     "healthExpenditures": 6.4,
-    "obesity": 21.4
+    "obesity": 21.4,
+    "education": 4.4,
+    "unemployment": 5,
+    "area": 283561,
+    "budget": -5.2,
+    "debt": 21.74,
+    "fossilFuels": 56,
+    "internet": 37.18,
+    "airports": 432,
+    "military": 2.83
   },
   {
     "name": "Egypt",
@@ -690,7 +1248,16 @@
     "infantMortality": 21.55,
     "lifeExpectancy": 73.7,
     "healthExpenditures": 5,
-    "obesity": 33.1
+    "obesity": 33.1,
+    "education": 3.8,
+    "unemployment": 13.4,
+    "area": 1001450,
+    "budget": -11.8,
+    "debt": 55.86,
+    "fossilFuels": 90,
+    "internet": 47.46,
+    "airports": 83,
+    "military": 1.67
   },
   {
     "name": "El Salvador",
@@ -701,7 +1268,16 @@
     "infantMortality": 17.86,
     "lifeExpectancy": 74.42,
     "healthExpenditures": 6.7,
-    "obesity": 25.8
+    "obesity": 25.8,
+    "education": 3.4,
+    "unemployment": 6.2,
+    "area": 21041,
+    "budget": -3.5,
+    "debt": 15.46,
+    "fossilFuels": 53.1,
+    "internet": 27.68,
+    "airports": 68,
+    "military": 0.99
   },
   {
     "name": "Equatorial Guinea",
@@ -712,7 +1288,16 @@
     "infantMortality": 69.17,
     "lifeExpectancy": 63.85,
     "healthExpenditures": 4.7,
-    "obesity": 10.6
+    "obesity": 10.6,
+    "education": 0.6,
+    "unemployment": 22.3,
+    "area": 28051,
+    "budget": -6.9,
+    "debt": 1.385,
+    "fossilFuels": 90.2,
+    "internet": 15.54,
+    "airports": 7,
+    "military": null
   },
   {
     "name": "Eritrea",
@@ -723,7 +1308,16 @@
     "infantMortality": 37.53,
     "lifeExpectancy": 63.81,
     "healthExpenditures": 2.6,
-    "obesity": 1.5
+    "obesity": 1.5,
+    "education": 2.1,
+    "unemployment": 8.6,
+    "area": 117600,
+    "budget": -12.8,
+    "debt": 1.049,
+    "fossilFuels": 98.7,
+    "internet": 0.89,
+    "airports": 13,
+    "military": null
   },
   {
     "name": "Estonia",
@@ -734,7 +1328,16 @@
     "infantMortality": 3.85,
     "lifeExpectancy": 76.47,
     "healthExpenditures": 5.9,
-    "obesity": 20.6
+    "obesity": 20.6,
+    "education": 5.7,
+    "unemployment": 8.6,
+    "area": 45228,
+    "budget": -0.2,
+    "debt": 22.79,
+    "fossilFuels": 91.1,
+    "internet": 79.03,
+    "airports": 18,
+    "military": 2
   },
   {
     "name": "Ethiopia",
@@ -745,7 +1348,16 @@
     "infantMortality": 53.37,
     "lifeExpectancy": 61.48,
     "healthExpenditures": 3.8,
-    "obesity": 1.1
+    "obesity": 1.1,
+    "education": 4.7,
+    "unemployment": 17.5,
+    "area": 1104300,
+    "budget": -2.9,
+    "debt": 17.02,
+    "fossilFuels": 9.6,
+    "internet": 1.61,
+    "airports": 57,
+    "military": 0.91
   },
   {
     "name": "Falkland Islands (Islas Malvinas)",
@@ -756,7 +1368,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 4.1,
+    "area": 12173,
+    "budget": -5,
+    "debt": null,
+    "fossilFuels": 90,
+    "internet": 86.28,
+    "airports": 7,
+    "military": null
   },
   {
     "name": "Faroe Islands",
@@ -767,7 +1388,16 @@
     "infantMortality": 5.6,
     "lifeExpectancy": 80.24,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 5.5,
+    "area": 1393,
+    "budget": -11.9,
+    "debt": 0.8888,
+    "fossilFuels": 64.9,
+    "internet": 87.66,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Fiji",
@@ -778,7 +1408,16 @@
     "infantMortality": 9.94,
     "lifeExpectancy": 72.43,
     "healthExpenditures": 4,
-    "obesity": 30.6
+    "obesity": 30.6,
+    "education": 4.2,
+    "unemployment": 7.6,
+    "area": 18274,
+    "budget": -2.6,
+    "debt": 0.5031,
+    "fossilFuels": 49,
+    "internet": 36.48,
+    "airports": 28,
+    "military": 1.47
   },
   {
     "name": "Finland",
@@ -789,7 +1428,16 @@
     "infantMortality": 2.52,
     "lifeExpectancy": 80.77,
     "healthExpenditures": 9.1,
-    "obesity": 23
+    "obesity": 23,
+    "education": 6.8,
+    "unemployment": 8.6,
+    "area": 338145,
+    "budget": -3.5,
+    "debt": 586.9,
+    "fossilFuels": 52.1,
+    "internet": 93.12,
+    "airports": 148,
+    "military": 1.47
   },
   {
     "name": "France",
@@ -800,7 +1448,16 @@
     "infantMortality": 3.28,
     "lifeExpectancy": 81.75,
     "healthExpenditures": 11.7,
-    "obesity": 18.2
+    "obesity": 18.2,
+    "education": 5.9,
+    "unemployment": 9.7,
+    "area": 643801,
+    "budget": -4.3,
+    "debt": 5371,
+    "fossilFuels": 24.7,
+    "internet": 85.34,
+    "airports": 464,
+    "military": 1.8
   },
   {
     "name": "French Polynesia",
@@ -811,7 +1468,16 @@
     "infantMortality": 4.73,
     "lifeExpectancy": 76.98,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 21.8,
+    "area": 4167,
+    "budget": 0.9,
+    "debt": null,
+    "fossilFuels": 79,
+    "internet": 56.99,
+    "airports": 54,
+    "military": null
   },
   {
     "name": "Gabon",
@@ -822,7 +1488,16 @@
     "infantMortality": 46.07,
     "lifeExpectancy": 52.04,
     "healthExpenditures": 3.5,
-    "obesity": 13.9
+    "obesity": 13.9,
+    "education": null,
+    "unemployment": 21,
+    "area": 267667,
+    "budget": -1,
+    "debt": 3.741,
+    "fossilFuels": 59,
+    "internet": 9.66,
+    "airports": 44,
+    "military": 1.34
   },
   {
     "name": "Gambia, The",
@@ -833,7 +1508,16 @@
     "infantMortality": 63.9,
     "lifeExpectancy": 64.6,
     "healthExpenditures": 5,
-    "obesity": 7.9
+    "obesity": 7.9,
+    "education": 4.1,
+    "unemployment": null,
+    "area": 11295,
+    "budget": -7.1,
+    "debt": 0.5839,
+    "fossilFuels": 100,
+    "internet": 13.92,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Gaza Strip",
@@ -844,7 +1528,16 @@
     "infantMortality": 14.94,
     "lifeExpectancy": 74.87,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 45.1,
+    "area": 360,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Georgia",
@@ -855,7 +1548,16 @@
     "infantMortality": 16.15,
     "lifeExpectancy": 75.95,
     "healthExpenditures": 9.2,
-    "obesity": 22.1
+    "obesity": 22.1,
+    "education": 2,
+    "unemployment": 14.9,
+    "area": 69700,
+    "budget": -2.8,
+    "debt": 12.3,
+    "fossilFuels": 38.8,
+    "internet": 50.7,
+    "airports": 22,
+    "military": 2.7
   },
   {
     "name": "Germany",
@@ -866,7 +1568,16 @@
     "infantMortality": 3.43,
     "lifeExpectancy": 80.57,
     "healthExpenditures": 11.3,
-    "obesity": 25.1
+    "obesity": 25.1,
+    "education": 5.1,
+    "unemployment": 5,
+    "area": 357022,
+    "budget": 0.4,
+    "debt": 5717,
+    "fossilFuels": 51,
+    "internet": 86.95,
+    "airports": 539,
+    "military": 1.35
   },
   {
     "name": "Ghana",
@@ -877,7 +1588,16 @@
     "infantMortality": 37.37,
     "lifeExpectancy": 66.18,
     "healthExpenditures": 5.2,
-    "obesity": 7.5
+    "obesity": 7.5,
+    "education": 8.1,
+    "unemployment": 11,
+    "area": 238533,
+    "budget": -9.6,
+    "debt": 16.02,
+    "fossilFuels": 45.9,
+    "internet": 18.99,
+    "airports": 10,
+    "military": 0.56
   },
   {
     "name": "Gibraltar",
@@ -888,7 +1608,16 @@
     "infantMortality": 6.16,
     "lifeExpectancy": 79.28,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 3,
+    "area": 7,
+    "budget": 1.3,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": 69.04,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Greece",
@@ -899,7 +1628,16 @@
     "infantMortality": 4.7,
     "lifeExpectancy": 80.43,
     "healthExpenditures": 9.3,
-    "obesity": 20.1
+    "obesity": 20.1,
+    "education": 4.1,
+    "unemployment": 26.8,
+    "area": 131957,
+    "budget": -3.4,
+    "debt": 568.7,
+    "fossilFuels": 66.3,
+    "internet": 57.54,
+    "airports": 77,
+    "military": 1.72
   },
   {
     "name": "Greenland",
@@ -910,7 +1648,16 @@
     "infantMortality": 9.23,
     "lifeExpectancy": 72.1,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 9.4,
+    "area": 2166086,
+    "budget": 1.9,
+    "debt": 0.0364,
+    "fossilFuels": 100,
+    "internet": 69.46,
+    "airports": 15,
+    "military": null
   },
   {
     "name": "Grenada",
@@ -921,7 +1668,16 @@
     "infantMortality": 10.21,
     "lifeExpectancy": 74.05,
     "healthExpenditures": 6.4,
-    "obesity": 22.5
+    "obesity": 22.5,
+    "education": 3.9,
+    "unemployment": 33.5,
+    "area": 344,
+    "budget": -4.1,
+    "debt": 0.679,
+    "fossilFuels": 98.6,
+    "internet": 44.81,
+    "airports": 3,
+    "military": null
   },
   {
     "name": "Guam",
@@ -932,7 +1688,16 @@
     "infantMortality": 5.41,
     "lifeExpectancy": 78.98,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 8.2,
+    "area": 544,
+    "budget": -3,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": 66.63,
+    "airports": 5,
+    "military": null
   },
   {
     "name": "Guatemala",
@@ -943,7 +1708,16 @@
     "infantMortality": 22.73,
     "lifeExpectancy": 72.02,
     "healthExpenditures": 6.7,
-    "obesity": 19.2
+    "obesity": 19.2,
+    "education": 3,
+    "unemployment": 4.1,
+    "area": 108889,
+    "budget": -2.3,
+    "debt": 15.94,
+    "fossilFuels": 55.8,
+    "internet": 16.76,
+    "airports": 291,
+    "military": 0.42
   },
   {
     "name": "Guernsey",
@@ -954,7 +1728,16 @@
     "infantMortality": 3.44,
     "lifeExpectancy": 82.47,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 0.9,
+    "area": 78,
+    "budget": 1.2,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 73.09,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Guinea",
@@ -965,7 +1748,16 @@
     "infantMortality": 53.43,
     "lifeExpectancy": 60.08,
     "healthExpenditures": 6.3,
-    "obesity": 4.4
+    "obesity": 4.4,
+    "education": 2.5,
+    "unemployment": null,
+    "area": 245857,
+    "budget": -4.3,
+    "debt": 0.8435,
+    "fossilFuels": 67.8,
+    "internet": 1.66,
+    "airports": 16,
+    "military": null
   },
   {
     "name": "Guinea-Bissau",
@@ -976,7 +1768,16 @@
     "infantMortality": 89.21,
     "lifeExpectancy": 50.23,
     "healthExpenditures": 5.9,
-    "obesity": 4.9
+    "obesity": 4.9,
+    "education": null,
+    "unemployment": null,
+    "area": 36125,
+    "budget": -3.4,
+    "debt": 1.095,
+    "fossilFuels": 100,
+    "internet": 3.25,
+    "airports": 8,
+    "military": 1.85
   },
   {
     "name": "Guyana",
@@ -987,7 +1788,16 @@
     "infantMortality": 32.56,
     "lifeExpectancy": 68.09,
     "healthExpenditures": 6.6,
-    "obesity": 17.2
+    "obesity": 17.2,
+    "education": 3.2,
+    "unemployment": 11,
+    "area": 214969,
+    "budget": -4.5,
+    "debt": 1.846,
+    "fossilFuels": 96,
+    "internet": 36.75,
+    "airports": 117,
+    "military": 1.09
   },
   {
     "name": "Haiti",
@@ -998,7 +1808,16 @@
     "infantMortality": 47.98,
     "lifeExpectancy": 63.51,
     "healthExpenditures": 6.4,
-    "obesity": 7.9
+    "obesity": 7.9,
+    "education": null,
+    "unemployment": 40.6,
+    "area": 27750,
+    "budget": -6.6,
+    "debt": 1.687,
+    "fossilFuels": 77.3,
+    "internet": 11.87,
+    "airports": 14,
+    "military": null
   },
   {
     "name": "Holy See (Vatican City)",
@@ -1009,7 +1828,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 0,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Honduras",
@@ -1020,7 +1848,16 @@
     "infantMortality": 18.18,
     "lifeExpectancy": 71,
     "healthExpenditures": 8.6,
-    "obesity": 18.4
+    "obesity": 18.4,
+    "education": null,
+    "unemployment": 4.3,
+    "area": 112090,
+    "budget": -5.1,
+    "debt": 7.111,
+    "fossilFuels": 60,
+    "internet": 19.44,
+    "airports": 103,
+    "military": 1.05
   },
   {
     "name": "Hong Kong",
@@ -1031,7 +1868,16 @@
     "infantMortality": 2.73,
     "lifeExpectancy": 82.86,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 3.5,
+    "unemployment": 3.1,
+    "area": 1108,
+    "budget": 0.7,
+    "debt": 171.3,
+    "fossilFuels": 100,
+    "internet": 78.42,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Hungary",
@@ -1042,7 +1888,16 @@
     "infantMortality": 5.02,
     "lifeExpectancy": 75.69,
     "healthExpenditures": 7.8,
-    "obesity": 27.6
+    "obesity": 27.6,
+    "education": 4.9,
+    "unemployment": 7.1,
+    "area": 93028,
+    "budget": -3,
+    "debt": 164.8,
+    "fossilFuels": 70.7,
+    "internet": 74.77,
+    "airports": 41,
+    "military": 0.83
   },
   {
     "name": "Iceland",
@@ -1053,7 +1908,16 @@
     "infantMortality": 2.06,
     "lifeExpectancy": 82.97,
     "healthExpenditures": 9.1,
-    "obesity": 23.2
+    "obesity": 23.2,
+    "education": 7.6,
+    "unemployment": 4.5,
+    "area": 103000,
+    "budget": 0.1,
+    "debt": 102,
+    "fossilFuels": 4.5,
+    "internet": 95.32,
+    "airports": 96,
+    "military": 0.13
   },
   {
     "name": "India",
@@ -1064,7 +1928,16 @@
     "infantMortality": 41.81,
     "lifeExpectancy": 68.13,
     "healthExpenditures": 4,
-    "obesity": 1.9
+    "obesity": 1.9,
+    "education": 3.2,
+    "unemployment": 8.6,
+    "area": 3287263,
+    "budget": -5,
+    "debt": 425.3,
+    "fossilFuels": 67.9,
+    "internet": 18.96,
+    "airports": 346,
+    "military": 2.4
   },
   {
     "name": "Indonesia",
@@ -1075,7 +1948,16 @@
     "infantMortality": 24.29,
     "lifeExpectancy": 72.45,
     "healthExpenditures": 3,
-    "obesity": 4.8
+    "obesity": 4.8,
+    "education": 2.8,
+    "unemployment": 5.7,
+    "area": 1904569,
+    "budget": -2.4,
+    "debt": 278.5,
+    "fossilFuels": 84.7,
+    "internet": 16.56,
+    "airports": 673,
+    "military": 0.78
   },
   {
     "name": "Iran",
@@ -1086,7 +1968,16 @@
     "infantMortality": 38.04,
     "lifeExpectancy": 71.15,
     "healthExpenditures": 6.7,
-    "obesity": 19.4
+    "obesity": 19.4,
+    "education": 3.7,
+    "unemployment": 10.3,
+    "area": 1648195,
+    "budget": -0.7,
+    "debt": 10.17,
+    "fossilFuels": 86.5,
+    "internet": 27.99,
+    "airports": 319,
+    "military": null
   },
   {
     "name": "Iraq",
@@ -1097,7 +1988,16 @@
     "infantMortality": 37.49,
     "lifeExpectancy": 74.85,
     "healthExpenditures": 3.6,
-    "obesity": 27
+    "obesity": 27,
+    "education": null,
+    "unemployment": 16,
+    "area": 438317,
+    "budget": 2.9,
+    "debt": 58.19,
+    "fossilFuels": 92,
+    "internet": 7.56,
+    "airports": 102,
+    "military": 8.7
   },
   {
     "name": "Ireland",
@@ -1108,7 +2008,16 @@
     "infantMortality": 3.7,
     "lifeExpectancy": 80.68,
     "healthExpenditures": 8.1,
-    "obesity": 25.2
+    "obesity": 25.2,
+    "education": 6.4,
+    "unemployment": 11.3,
+    "area": 70273,
+    "budget": -4.6,
+    "debt": 2164,
+    "fossilFuels": 77.2,
+    "internet": 79.72,
+    "airports": 40,
+    "military": 0.55
   },
   {
     "name": "Isle of Man",
@@ -1119,7 +2028,16 @@
     "infantMortality": 4.11,
     "lifeExpectancy": 81.09,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 2,
+    "area": 572,
+    "budget": 0.5,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Israel",
@@ -1130,7 +2048,16 @@
     "infantMortality": 3.55,
     "lifeExpectancy": 82.27,
     "healthExpenditures": 7.5,
-    "obesity": 26.2
+    "obesity": 26.2,
+    "education": 5.6,
+    "unemployment": 6.6,
+    "area": 20770,
+    "budget": -2.7,
+    "debt": 99.75,
+    "fossilFuels": 97.4,
+    "internet": 74.54,
+    "airports": 47,
+    "military": 5.69
   },
   {
     "name": "Italy",
@@ -1141,7 +2068,16 @@
     "infantMortality": 3.29,
     "lifeExpectancy": 82.12,
     "healthExpenditures": 9.2,
-    "obesity": 19.8
+    "obesity": 19.8,
+    "education": 4.5,
+    "unemployment": 12.5,
+    "area": 301340,
+    "budget": -3,
+    "debt": 2604,
+    "fossilFuels": 66.3,
+    "internet": 59.82,
+    "airports": 129,
+    "military": 1.69
   },
   {
     "name": "Jamaica",
@@ -1152,7 +2088,16 @@
     "infantMortality": 13.37,
     "lifeExpectancy": 73.55,
     "healthExpenditures": 5.9,
-    "obesity": 24.1
+    "obesity": 24.1,
+    "education": 6.1,
+    "unemployment": 13.6,
+    "area": 10991,
+    "budget": -0.9,
+    "debt": 15.99,
+    "fossilFuels": 91.7,
+    "internet": 50.84,
+    "airports": 28,
+    "military": 0.86
   },
   {
     "name": "Japan",
@@ -1163,7 +2108,16 @@
     "infantMortality": 2.08,
     "lifeExpectancy": 84.74,
     "healthExpenditures": 10.1,
-    "obesity": 5
+    "obesity": 5,
+    "education": 3.8,
+    "unemployment": 3.6,
+    "area": 377915,
+    "budget": -7.9,
+    "debt": 3017,
+    "fossilFuels": 71,
+    "internet": 86.12,
+    "airports": 175,
+    "military": 0.97
   },
   {
     "name": "Jersey",
@@ -1174,7 +2128,16 @@
     "infantMortality": 3.82,
     "lifeExpectancy": 81.76,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 1.7,
+    "area": 116,
+    "budget": -0.4,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 30.32,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Jordan",
@@ -1185,7 +2148,16 @@
     "infantMortality": 15.18,
     "lifeExpectancy": 74.35,
     "healthExpenditures": 9.8,
-    "obesity": 30
+    "obesity": 30,
+    "education": null,
+    "unemployment": 12.3,
+    "area": 89342,
+    "budget": -4.3,
+    "debt": 26.06,
+    "fossilFuels": 99.6,
+    "internet": 44.35,
+    "airports": 18,
+    "military": 4.65
   },
   {
     "name": "Kazakhstan",
@@ -1196,7 +2168,16 @@
     "infantMortality": 20.92,
     "lifeExpectancy": 70.55,
     "healthExpenditures": 4.2,
-    "obesity": 23.7
+    "obesity": 23.7,
+    "education": 3.1,
+    "unemployment": 5.1,
+    "area": 2724900,
+    "budget": -1.6,
+    "debt": 163.2,
+    "fossilFuels": 88.1,
+    "internet": 58.38,
+    "airports": 96,
+    "military": 1.21
   },
   {
     "name": "Kenya",
@@ -1207,7 +2188,16 @@
     "infantMortality": 39.38,
     "lifeExpectancy": 63.77,
     "healthExpenditures": 4.7,
-    "obesity": 4.2
+    "obesity": 4.2,
+    "education": 6.7,
+    "unemployment": 40,
+    "area": 580367,
+    "budget": -5.2,
+    "debt": 16.77,
+    "fossilFuels": 43.2,
+    "internet": 35.93,
+    "airports": 197,
+    "military": 1.96
   },
   {
     "name": "Kiribati",
@@ -1218,7 +2208,16 @@
     "infantMortality": 34.26,
     "lifeExpectancy": 65.81,
     "healthExpenditures": 10.7,
-    "obesity": 46
+    "obesity": 46,
+    "education": 12,
+    "unemployment": 2,
+    "area": 811,
+    "budget": -31.4,
+    "debt": 0.01,
+    "fossilFuels": 100,
+    "internet": 11.54,
+    "airports": 19,
+    "military": null
   },
   {
     "name": "Korea, North",
@@ -1229,7 +2228,16 @@
     "infantMortality": 23.68,
     "lifeExpectancy": 70.11,
     "healthExpenditures": null,
-    "obesity": 3.9
+    "obesity": 3.9,
+    "education": null,
+    "unemployment": null,
+    "area": 120538,
+    "budget": -0.4,
+    "debt": 5,
+    "fossilFuels": 47.4,
+    "internet": null,
+    "airports": 82,
+    "military": null
   },
   {
     "name": "Korea, South",
@@ -1240,7 +2248,16 @@
     "infantMortality": 3.86,
     "lifeExpectancy": 80.04,
     "healthExpenditures": 7.5,
-    "obesity": 7.7
+    "obesity": 7.7,
+    "education": 5,
+    "unemployment": 3.3,
+    "area": 99720,
+    "budget": 0.5,
+    "debt": 424.2,
+    "fossilFuels": 72.4,
+    "internet": 91.42,
+    "airports": 111,
+    "military": 2.8
   },
   {
     "name": "Kosovo",
@@ -1251,7 +2268,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 4.3,
+    "unemployment": 30.9,
+    "area": 10887,
+    "budget": -1.8,
+    "debt": 0.4482,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 6,
+    "military": null
   },
   {
     "name": "Kuwait",
@@ -1262,7 +2288,16 @@
     "infantMortality": 7.31,
     "lifeExpectancy": 77.82,
     "healthExpenditures": 2.5,
-    "obesity": 42
+    "obesity": 42,
+    "education": 3.8,
+    "unemployment": 3,
+    "area": 17818,
+    "budget": 25.4,
+    "debt": 33.1,
+    "fossilFuels": 100,
+    "internet": 86.07,
+    "airports": 7,
+    "military": 0
   },
   {
     "name": "Kyrgyzstan",
@@ -1273,7 +2308,16 @@
     "infantMortality": 27.73,
     "lifeExpectancy": 70.36,
     "healthExpenditures": 7.1,
-    "obesity": 15.5
+    "obesity": 15.5,
+    "education": 6.8,
+    "unemployment": 8.6,
+    "area": 199951,
+    "budget": -2.3,
+    "debt": 6.819,
+    "fossilFuels": 21.1,
+    "internet": 24.71,
+    "airports": 28,
+    "military": null
   },
   {
     "name": "Laos",
@@ -1284,7 +2328,16 @@
     "infantMortality": 52.97,
     "lifeExpectancy": 63.88,
     "healthExpenditures": 2.9,
-    "obesity": 2.6
+    "obesity": 2.6,
+    "education": 2.8,
+    "unemployment": 1.3,
+    "area": 236800,
+    "budget": -4.7,
+    "debt": 7.52,
+    "fossilFuels": 1.9,
+    "internet": 4.34,
+    "airports": 41,
+    "military": null
   },
   {
     "name": "Latvia",
@@ -1295,7 +2348,16 @@
     "infantMortality": 5.36,
     "lifeExpectancy": 74.23,
     "healthExpenditures": 6,
-    "obesity": 24.9
+    "obesity": 24.9,
+    "education": 5,
+    "unemployment": 9.5,
+    "area": 64589,
+    "budget": 0,
+    "debt": 38.54,
+    "fossilFuels": 26.5,
+    "internet": 75.5,
+    "airports": 42,
+    "military": 0.92
   },
   {
     "name": "Lebanon",
@@ -1306,7 +2368,16 @@
     "infantMortality": 7.76,
     "lifeExpectancy": 77.4,
     "healthExpenditures": 7.3,
-    "obesity": 27.4
+    "obesity": 27.4,
+    "education": 2.2,
+    "unemployment": null,
+    "area": 10400,
+    "budget": -9.8,
+    "debt": 31.61,
+    "fossilFuels": 88.1,
+    "internet": 64.68,
+    "airports": 8,
+    "military": 4.04
   },
   {
     "name": "Lesotho",
@@ -1317,7 +2388,16 @@
     "infantMortality": 49.03,
     "lifeExpectancy": 52.86,
     "healthExpenditures": 11.6,
-    "obesity": 14.6
+    "obesity": 14.6,
+    "education": 13,
+    "unemployment": 28.1,
+    "area": 30355,
+    "budget": -1.9,
+    "debt": 0.9295,
+    "fossilFuels": 0,
+    "internet": 5.24,
+    "airports": 24,
+    "military": 1.94
   },
   {
     "name": "Liberia",
@@ -1328,7 +2408,16 @@
     "infantMortality": 67.5,
     "lifeExpectancy": 58.6,
     "healthExpenditures": 15.5,
-    "obesity": 4.8
+    "obesity": 4.8,
+    "education": 2.8,
+    "unemployment": 85,
+    "area": 111369,
+    "budget": -4.4,
+    "debt": 0.6259,
+    "fossilFuels": 100,
+    "internet": 4.23,
+    "airports": 29,
+    "military": 0.82
   },
   {
     "name": "Libya",
@@ -1339,7 +2428,16 @@
     "infantMortality": 11.48,
     "lifeExpectancy": 76.26,
     "healthExpenditures": 3.9,
-    "obesity": 27.8
+    "obesity": 27.8,
+    "education": null,
+    "unemployment": 30,
+    "area": 1759540,
+    "budget": -14.1,
+    "debt": 3.904,
+    "fossilFuels": 100,
+    "internet": 21.83,
+    "airports": 146,
+    "military": null
   },
   {
     "name": "Liechtenstein",
@@ -1350,7 +2448,16 @@
     "infantMortality": 4.29,
     "lifeExpectancy": 81.77,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 2.1,
+    "unemployment": 2.3,
+    "area": 160,
+    "budget": 2.1,
+    "debt": 0,
+    "fossilFuels": null,
+    "internet": 91.7,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Lithuania",
@@ -1361,7 +2468,16 @@
     "infantMortality": 3.84,
     "lifeExpectancy": 74.69,
     "healthExpenditures": 6.7,
-    "obesity": 27.6
+    "obesity": 27.6,
+    "education": 5.4,
+    "unemployment": 11.1,
+    "area": 65300,
+    "budget": -1.9,
+    "debt": 28.88,
+    "fossilFuels": 88.7,
+    "internet": 69.34,
+    "airports": 61,
+    "military": 0.97
   },
   {
     "name": "Luxembourg",
@@ -1372,7 +2488,16 @@
     "infantMortality": 3.46,
     "lifeExpectancy": 82.17,
     "healthExpenditures": 6.9,
-    "obesity": 26
+    "obesity": 26,
+    "education": 3.7,
+    "unemployment": 7.1,
+    "area": 2586,
+    "budget": 0.2,
+    "debt": 2935,
+    "fossilFuels": 76.8,
+    "internet": 93.01,
+    "airports": 2,
+    "military": 0.6
   },
   {
     "name": "Macau",
@@ -1383,7 +2508,16 @@
     "infantMortality": 3.12,
     "lifeExpectancy": 84.51,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": 2.7,
+    "unemployment": 1.9,
+    "area": 28,
+    "budget": 35.5,
+    "debt": 0,
+    "fossilFuels": 100,
+    "internet": 45.59,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Macedonia",
@@ -1394,7 +2528,16 @@
     "infantMortality": 7.7,
     "lifeExpectancy": 76.02,
     "healthExpenditures": 7.1,
-    "obesity": 21.1
+    "obesity": 21.1,
+    "education": null,
+    "unemployment": 28,
+    "area": 25713,
+    "budget": -4.1,
+    "debt": 7.461,
+    "fossilFuels": 66.4,
+    "internet": 52.48,
+    "airports": 10,
+    "military": 1.12
   },
   {
     "name": "Madagascar",
@@ -1405,7 +2548,16 @@
     "infantMortality": 43.67,
     "lifeExpectancy": 65.55,
     "healthExpenditures": 4.1,
-    "obesity": 1.6
+    "obesity": 1.6,
+    "education": 2.7,
+    "unemployment": null,
+    "area": 587041,
+    "budget": -3.3,
+    "debt": 3.63,
+    "fossilFuels": 74,
+    "internet": 71.39,
+    "airports": 83,
+    "military": 0.69
   },
   {
     "name": "Malawi",
@@ -1416,7 +2568,16 @@
     "infantMortality": 46.26,
     "lifeExpectancy": 60.66,
     "healthExpenditures": 9.2,
-    "obesity": 4.3
+    "obesity": 4.3,
+    "education": 5.4,
+    "unemployment": null,
+    "area": 118484,
+    "budget": -7,
+    "debt": 1.729,
+    "fossilFuels": 0.3,
+    "internet": 2.16,
+    "airports": 32,
+    "military": 0.93
   },
   {
     "name": "Malaysia",
@@ -1427,7 +2588,16 @@
     "infantMortality": 13.27,
     "lifeExpectancy": 74.75,
     "healthExpenditures": 4,
-    "obesity": 14
+    "obesity": 14,
+    "education": 5.9,
+    "unemployment": 2.9,
+    "area": 329847,
+    "budget": -3.4,
+    "debt": 109.3,
+    "fossilFuels": 89.4,
+    "internet": 39.65,
+    "airports": 114,
+    "military": 1.55
   },
   {
     "name": "Maldives",
@@ -1438,7 +2608,16 @@
     "infantMortality": 23.7,
     "lifeExpectancy": 75.37,
     "healthExpenditures": 8.5,
-    "obesity": 12.9
+    "obesity": 12.9,
+    "education": 6.8,
+    "unemployment": 11,
+    "area": 298,
+    "budget": -4.7,
+    "debt": 0.7936,
+    "fossilFuels": 99.9,
+    "internet": 4.73,
+    "airports": 9,
+    "military": null
   },
   {
     "name": "Mali",
@@ -1449,7 +2628,16 @@
     "infantMortality": 102.23,
     "lifeExpectancy": 55.34,
     "healthExpenditures": 5.8,
-    "obesity": 4.3
+    "obesity": 4.3,
+    "education": 4.8,
+    "unemployment": 30,
+    "area": 1240192,
+    "budget": -4.7,
+    "debt": 3.737,
+    "fossilFuels": 48.4,
+    "internet": 73.13,
+    "airports": 25,
+    "military": 1.44
   },
   {
     "name": "Malta",
@@ -1460,7 +2648,16 @@
     "infantMortality": 3.56,
     "lifeExpectancy": 80.25,
     "healthExpenditures": 9.1,
-    "obesity": 28.8
+    "obesity": 28.8,
+    "education": 6.9,
+    "unemployment": 5.9,
+    "area": 316,
+    "budget": -2.4,
+    "debt": 51.08,
+    "fossilFuels": 97.5,
+    "internet": 40.1,
+    "airports": 1,
+    "military": 0.61
   },
   {
     "name": "Marshall Islands",
@@ -1471,7 +2668,16 @@
     "infantMortality": 20.66,
     "lifeExpectancy": 72.84,
     "healthExpenditures": 15.6,
-    "obesity": 45.4
+    "obesity": 45.4,
+    "education": 12.2,
+    "unemployment": 36,
+    "area": 181,
+    "budget": 0.4,
+    "debt": 0.087,
+    "fossilFuels": null,
+    "internet": 2.35,
+    "airports": 15,
+    "military": null
   },
   {
     "name": "Mauritania",
@@ -1482,7 +2688,16 @@
     "infantMortality": 54.68,
     "lifeExpectancy": 62.65,
     "healthExpenditures": 6.4,
-    "obesity": 12.7
+    "obesity": 12.7,
+    "education": 3.7,
+    "unemployment": 31,
+    "area": 1030700,
+    "budget": -1.1,
+    "debt": 3.996,
+    "fossilFuels": 66.9,
+    "internet": 11.18,
+    "airports": 30,
+    "military": null
   },
   {
     "name": "Mauritius",
@@ -1493,7 +2708,16 @@
     "infantMortality": 10.3,
     "lifeExpectancy": 75.4,
     "healthExpenditures": 4.8,
-    "obesity": 18.5
+    "obesity": 18.5,
+    "education": 3.5,
+    "unemployment": 8,
+    "area": 2040,
+    "budget": -3.7,
+    "debt": 5.7,
+    "fossilFuels": 75.6,
+    "internet": 6.1,
+    "airports": 5,
+    "military": 0.19
   },
   {
     "name": "Mexico",
@@ -1504,7 +2728,16 @@
     "infantMortality": 12.23,
     "lifeExpectancy": 75.65,
     "healthExpenditures": 6.1,
-    "obesity": 32.1
+    "obesity": 32.1,
+    "education": 5.1,
+    "unemployment": 4.7,
+    "area": 1964375,
+    "budget": -3.7,
+    "debt": 438.4,
+    "fossilFuels": 75.7,
+    "internet": 40.66,
+    "airports": 1714,
+    "military": 0.59
   },
   {
     "name": "Micronesia, Federated States of",
@@ -1515,7 +2748,16 @@
     "infantMortality": 21.18,
     "lifeExpectancy": 72.62,
     "healthExpenditures": 12.8,
-    "obesity": 40.6
+    "obesity": 40.6,
+    "education": null,
+    "unemployment": 22,
+    "area": 702,
+    "budget": 1.5,
+    "debt": 0.0608,
+    "fossilFuels": null,
+    "internet": 28.42,
+    "airports": 6,
+    "military": null
   },
   {
     "name": "Moldova",
@@ -1526,7 +2768,16 @@
     "infantMortality": 12.59,
     "lifeExpectancy": 70.42,
     "healthExpenditures": 11.7,
-    "obesity": 21.2
+    "obesity": 21.2,
+    "education": 8.4,
+    "unemployment": 6.2,
+    "area": 33851,
+    "budget": -2.9,
+    "debt": 6.778,
+    "fossilFuels": 96.4,
+    "internet": 45.11,
+    "airports": 7,
+    "military": 0.5
   },
   {
     "name": "Monaco",
@@ -1537,7 +2788,16 @@
     "infantMortality": 1.82,
     "lifeExpectancy": 89.52,
     "healthExpenditures": 4.4,
-    "obesity": null
+    "obesity": null,
+    "education": 1.6,
+    "unemployment": 2,
+    "area": 2,
+    "budget": -1.1,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 89.73,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Mongolia",
@@ -1548,7 +2808,16 @@
     "infantMortality": 22.44,
     "lifeExpectancy": 69.29,
     "healthExpenditures": 6.3,
-    "obesity": 14.4
+    "obesity": 14.4,
+    "education": 5.5,
+    "unemployment": 8.8,
+    "area": 1564116,
+    "budget": -1.8,
+    "debt": 5.352,
+    "fossilFuels": 99.9,
+    "internet": 17.61,
+    "airports": 44,
+    "military": 1.12
   },
   {
     "name": "Montenegro",
@@ -1559,7 +2828,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": 7.6,
-    "obesity": 22.5
+    "obesity": 22.5,
+    "education": null,
+    "unemployment": 19.1,
+    "area": 13812,
+    "budget": 2.1,
+    "debt": 1.7,
+    "fossilFuels": 24.2,
+    "internet": 58.99,
+    "airports": 5,
+    "military": 1.81
   },
   {
     "name": "Montserrat",
@@ -1570,7 +2848,16 @@
     "infantMortality": 13.17,
     "lifeExpectancy": 74.14,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 6,
+    "area": 102,
+    "budget": null,
+    "debt": 0.0089,
+    "fossilFuels": 100,
+    "internet": 22.9,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Morocco",
@@ -1581,7 +2868,16 @@
     "infantMortality": 23.6,
     "lifeExpectancy": 76.71,
     "healthExpenditures": 6.4,
-    "obesity": 16.4
+    "obesity": 16.4,
+    "education": 5.4,
+    "unemployment": 9.6,
+    "area": 446550,
+    "budget": -5,
+    "debt": 35.54,
+    "fossilFuels": 73.2,
+    "internet": 59.72,
+    "airports": 55,
+    "military": 3.55
   },
   {
     "name": "Mozambique",
@@ -1592,7 +2888,16 @@
     "infantMortality": 70.21,
     "lifeExpectancy": 52.94,
     "healthExpenditures": 6.4,
-    "obesity": 4.9
+    "obesity": 4.9,
+    "education": 5,
+    "unemployment": 17,
+    "area": 799380,
+    "budget": -9.9,
+    "debt": 7.521,
+    "fossilFuels": 10.3,
+    "internet": 5.53,
+    "airports": 98,
+    "military": null
   },
   {
     "name": "Namibia",
@@ -1603,7 +2908,16 @@
     "infantMortality": 45.62,
     "lifeExpectancy": 51.62,
     "healthExpenditures": 8.3,
-    "obesity": 9.5
+    "obesity": 9.5,
+    "education": 8.4,
+    "unemployment": 27.4,
+    "area": 824292,
+    "budget": -5.3,
+    "debt": 5.48,
+    "fossilFuels": 31.8,
+    "internet": 14.71,
+    "airports": 112,
+    "military": 3.11
   },
   {
     "name": "Nauru",
@@ -1614,7 +2928,16 @@
     "infantMortality": 8.07,
     "lifeExpectancy": 66.75,
     "healthExpenditures": 7.5,
-    "obesity": 71.1
+    "obesity": 71.1,
+    "education": null,
+    "unemployment": 90,
+    "area": 21,
+    "budget": null,
+    "debt": 0.0333,
+    "fossilFuels": 100,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Nepal",
@@ -1625,7 +2948,16 @@
     "infantMortality": 39.14,
     "lifeExpectancy": 67.52,
     "healthExpenditures": 5.5,
-    "obesity": 1.4
+    "obesity": 1.4,
+    "education": 4.7,
+    "unemployment": 46,
+    "area": 147181,
+    "budget": 1.3,
+    "debt": 3.549,
+    "fossilFuels": 7.6,
+    "internet": 12.04,
+    "airports": 47,
+    "military": null
   },
   {
     "name": "Netherlands",
@@ -1636,7 +2968,16 @@
     "infantMortality": 3.62,
     "lifeExpectancy": 81.23,
     "healthExpenditures": 12.4,
-    "obesity": 18.8
+    "obesity": 18.8,
+    "education": 5.9,
+    "unemployment": 7.2,
+    "area": 41543,
+    "budget": -2.7,
+    "debt": 2347,
+    "fossilFuels": 85.1,
+    "internet": 95.59,
+    "airports": 29,
+    "military": 1.27
   },
   {
     "name": "New Caledonia",
@@ -1647,7 +2988,16 @@
     "infantMortality": 5.37,
     "lifeExpectancy": 77.5,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 17.1,
+    "area": 18575,
+    "budget": null,
+    "debt": 0.112,
+    "fossilFuels": 76.8,
+    "internet": 62.26,
+    "airports": 25,
+    "military": null
   },
   {
     "name": "New Zealand",
@@ -1658,7 +3008,16 @@
     "infantMortality": 4.52,
     "lifeExpectancy": 81.05,
     "healthExpenditures": 10.3,
-    "obesity": 28.3
+    "obesity": 28.3,
+    "education": 7.4,
+    "unemployment": 5.9,
+    "area": 267710,
+    "budget": -0.9,
+    "debt": 87.16,
+    "fossilFuels": 30.9,
+    "internet": 90.12,
+    "airports": 123,
+    "military": 1.13
   },
   {
     "name": "Nicaragua",
@@ -1669,7 +3028,16 @@
     "infantMortality": 19.65,
     "lifeExpectancy": 72.98,
     "healthExpenditures": 8.2,
-    "obesity": 22.2
+    "obesity": 22.2,
+    "education": 4.6,
+    "unemployment": 7.4,
+    "area": 130370,
+    "budget": -1.9,
+    "debt": 10.25,
+    "fossilFuels": 57.6,
+    "internet": 14.3,
+    "airports": 147,
+    "military": 0.63
   },
   {
     "name": "Niger",
@@ -1680,7 +3048,16 @@
     "infantMortality": 84.59,
     "lifeExpectancy": 55.13,
     "healthExpenditures": 7.2,
-    "obesity": 2.4
+    "obesity": 2.4,
+    "education": 4.2,
+    "unemployment": null,
+    "area": 1267000,
+    "budget": -12.6,
+    "debt": 2.851,
+    "fossilFuels": 100,
+    "internet": 1.56,
+    "airports": 30,
+    "military": 1.06
   },
   {
     "name": "Nigeria",
@@ -1691,7 +3068,16 @@
     "infantMortality": 72.7,
     "lifeExpectancy": 53.02,
     "healthExpenditures": 6.1,
-    "obesity": 6.5
+    "obesity": 6.5,
+    "education": null,
+    "unemployment": 23.9,
+    "area": 923768,
+    "budget": -2,
+    "debt": 22.01,
+    "fossilFuels": 67.1,
+    "internet": 36.68,
+    "airports": 54,
+    "military": 0.89
   },
   {
     "name": "Niue",
@@ -1702,7 +3088,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": 6.7,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 12,
+    "area": 260,
+    "budget": -12.6,
+    "debt": 0.000418,
+    "fossilFuels": 100,
+    "internet": 92.44,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Norfolk Island",
@@ -1713,7 +3108,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 36,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Northern Mariana Islands",
@@ -1724,7 +3128,16 @@
     "infantMortality": 5.4,
     "lifeExpectancy": 77.82,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 11.2,
+    "area": 464,
+    "budget": -7.9,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 5,
+    "military": null
   },
   {
     "name": "Norway",
@@ -1735,7 +3148,16 @@
     "infantMortality": 2.48,
     "lifeExpectancy": 81.7,
     "healthExpenditures": 9,
-    "obesity": 21.5
+    "obesity": 21.5,
+    "education": 6.9,
+    "unemployment": 3.4,
+    "area": 323802,
+    "budget": 12.5,
+    "debt": 720.6,
+    "fossilFuels": 4.6,
+    "internet": 94.09,
+    "airports": 95,
+    "military": 1.4
   },
   {
     "name": "Oman",
@@ -1746,7 +3168,16 @@
     "infantMortality": 13.55,
     "lifeExpectancy": 75.21,
     "healthExpenditures": 2.6,
-    "obesity": 20.9
+    "obesity": 20.9,
+    "education": 4.3,
+    "unemployment": 15,
+    "area": 309500,
+    "budget": 3,
+    "debt": 11.3,
+    "fossilFuels": 100,
+    "internet": 63.89,
+    "airports": 132,
+    "military": 8.61
   },
   {
     "name": "Pakistan",
@@ -1757,7 +3188,16 @@
     "infantMortality": 55.67,
     "lifeExpectancy": 67.39,
     "healthExpenditures": 2.7,
-    "obesity": 5.5
+    "obesity": 5.5,
+    "education": 2.1,
+    "unemployment": 6.8,
+    "area": 796095,
+    "budget": -5.9,
+    "debt": 62.33,
+    "fossilFuels": 68,
+    "internet": 10.7,
+    "airports": 151,
+    "military": 3.04
   },
   {
     "name": "Palau",
@@ -1768,7 +3208,16 @@
     "infantMortality": 11.15,
     "lifeExpectancy": 72.87,
     "healthExpenditures": 9.5,
-    "obesity": 48.9
+    "obesity": 48.9,
+    "education": 7.3,
+    "unemployment": 4.2,
+    "area": 459,
+    "budget": -2,
+    "debt": 0,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 3,
+    "military": null
   },
   {
     "name": "Panama",
@@ -1779,7 +3228,16 @@
     "infantMortality": 10.41,
     "lifeExpectancy": 78.47,
     "healthExpenditures": 7.6,
-    "obesity": 25.4
+    "obesity": 25.4,
+    "education": 3.5,
+    "unemployment": 4.5,
+    "area": 75420,
+    "budget": -4.1,
+    "debt": 15.47,
+    "fossilFuels": 43.5,
+    "internet": 46.49,
+    "airports": 117,
+    "military": null
   },
   {
     "name": "Papua New Guinea",
@@ -1790,7 +3248,16 @@
     "infantMortality": 38.55,
     "lifeExpectancy": 67.03,
     "healthExpenditures": 5.2,
-    "obesity": 16.2
+    "obesity": 16.2,
+    "education": null,
+    "unemployment": 1.9,
+    "area": 462840,
+    "budget": -7,
+    "debt": 30.87,
+    "fossilFuels": 61.1,
+    "internet": 2.47,
+    "airports": 561,
+    "military": 0.54
   },
   {
     "name": "Paraguay",
@@ -1801,7 +3268,16 @@
     "infantMortality": 20.05,
     "lifeExpectancy": 76.99,
     "healthExpenditures": 10.3,
-    "obesity": 17.9
+    "obesity": 17.9,
+    "education": 4.8,
+    "unemployment": 7.3,
+    "area": 406752,
+    "budget": -1.4,
+    "debt": 8.759,
+    "fossilFuels": 0.1,
+    "internet": 28.01,
+    "airports": 1,
+    "military": 1.66
   },
   {
     "name": "Peru",
@@ -1812,7 +3288,16 @@
     "infantMortality": 19.59,
     "lifeExpectancy": 73.48,
     "healthExpenditures": 5.1,
-    "obesity": 15.7
+    "obesity": 15.7,
+    "education": 2.8,
+    "unemployment": 7.6,
+    "area": 1285216,
+    "budget": -0.1,
+    "debt": 56.47,
+    "fossilFuels": 59.6,
+    "internet": 40.4,
+    "airports": 799,
+    "military": 1.28
   },
   {
     "name": "Philippines",
@@ -1823,7 +3308,16 @@
     "infantMortality": 22.34,
     "lifeExpectancy": 68.96,
     "healthExpenditures": 4.6,
-    "obesity": 6.3
+    "obesity": 6.3,
+    "education": 2.7,
+    "unemployment": 7.2,
+    "area": 300000,
+    "budget": -1.5,
+    "debt": 59.21,
+    "fossilFuels": 66.2,
+    "internet": 38.81,
+    "airports": 191,
+    "military": 1.19
   },
   {
     "name": "Pitcairn Islands",
@@ -1834,7 +3328,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 47,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 247,
+    "military": null
   },
   {
     "name": "Poland",
@@ -1845,7 +3348,16 @@
     "infantMortality": 4.5,
     "lifeExpectancy": 77.4,
     "healthExpenditures": 6.7,
-    "obesity": 25.3
+    "obesity": 25.3,
+    "education": 5.2,
+    "unemployment": 12.7,
+    "area": 312685,
+    "budget": -1.5,
+    "debt": 395.2,
+    "fossilFuels": 91.5,
+    "internet": 67.16,
+    "airports": 126,
+    "military": 1.91
   },
   {
     "name": "Portugal",
@@ -1856,7 +3368,16 @@
     "infantMortality": 4.43,
     "lifeExpectancy": 79.16,
     "healthExpenditures": 9.4,
-    "obesity": 24
+    "obesity": 24,
+    "education": 5.6,
+    "unemployment": 14.2,
+    "area": 92090,
+    "budget": -4.8,
+    "debt": 508.3,
+    "fossilFuels": 49,
+    "internet": 66.51,
+    "airports": 64,
+    "military": 1.29
   },
   {
     "name": "Puerto Rico",
@@ -1867,7 +3388,16 @@
     "infantMortality": 7.57,
     "lifeExpectancy": 79.25,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 16,
+    "area": 13790,
+    "budget": -0.1,
+    "debt": 56.82,
+    "fossilFuels": 97.2,
+    "internet": 55.58,
+    "airports": 29,
+    "military": null
   },
   {
     "name": "Qatar",
@@ -1878,7 +3408,16 @@
     "infantMortality": 6.32,
     "lifeExpectancy": 78.59,
     "healthExpenditures": 2.2,
-    "obesity": 33.2
+    "obesity": 33.2,
+    "education": 2.5,
+    "unemployment": 0.4,
+    "area": 11586,
+    "budget": 11.2,
+    "debt": 158,
+    "fossilFuels": 100,
+    "internet": 95.68,
+    "airports": 6,
+    "military": null
   },
   {
     "name": "Romania",
@@ -1889,7 +3428,16 @@
     "infantMortality": 9.89,
     "lifeExpectancy": 74.92,
     "healthExpenditures": 5.1,
-    "obesity": 19.1
+    "obesity": 19.1,
+    "education": 4.2,
+    "unemployment": 7,
+    "area": 238391,
+    "budget": -1.9,
+    "debt": 127.2,
+    "fossilFuels": 55.1,
+    "internet": 51.69,
+    "airports": 45,
+    "military": 1.42
   },
   {
     "name": "Russia",
@@ -1900,7 +3448,16 @@
     "infantMortality": 6.97,
     "lifeExpectancy": 70.47,
     "healthExpenditures": 6.3,
-    "obesity": 26.5
+    "obesity": 26.5,
+    "education": 4.1,
+    "unemployment": 4.9,
+    "area": 17098242,
+    "budget": 0.4,
+    "debt": 683.6,
+    "fossilFuels": 69.2,
+    "internet": 59.26,
+    "airports": 1218,
+    "military": 3.49
   },
   {
     "name": "Rwanda",
@@ -1911,7 +3468,16 @@
     "infantMortality": 58.19,
     "lifeExpectancy": 59.67,
     "healthExpenditures": 10.7,
-    "obesity": 4.3
+    "obesity": 4.3,
+    "education": 5.1,
+    "unemployment": null,
+    "area": 26338,
+    "budget": -3.7,
+    "debt": 1.901,
+    "fossilFuels": 39.9,
+    "internet": 8.69,
+    "airports": 7,
+    "military": 1.12
   },
   {
     "name": "Saint Barthelemy",
@@ -1922,7 +3488,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": null,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Saint Helena, Ascension, and Tristan da Cunha",
@@ -1933,7 +3508,16 @@
     "infantMortality": 14.19,
     "lifeExpectancy": 79.36,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 14,
+    "area": 308,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": 11.55,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -1944,7 +3528,16 @@
     "infantMortality": 8.77,
     "lifeExpectancy": 75.52,
     "healthExpenditures": 5.9,
-    "obesity": 40.7
+    "obesity": 40.7,
+    "education": 4.2,
+    "unemployment": 4.5,
+    "area": 261,
+    "budget": 4.6,
+    "debt": 0.1629,
+    "fossilFuels": 95.2,
+    "internet": 32.73,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Saint Lucia",
@@ -1955,7 +3548,16 @@
     "infantMortality": 11.45,
     "lifeExpectancy": 77.6,
     "healthExpenditures": 8.5,
-    "obesity": 21.4
+    "obesity": 21.4,
+    "education": 4.1,
+    "unemployment": 20,
+    "area": 616,
+    "budget": -2.8,
+    "debt": 0.4982,
+    "fossilFuels": 100,
+    "internet": 87.18,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Saint Martin",
@@ -1966,7 +3568,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 54,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1977,7 +3588,16 @@
     "infantMortality": 6.78,
     "lifeExpectancy": 80.39,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 9.9,
+    "area": 242,
+    "budget": 4.6,
+    "debt": null,
+    "fossilFuels": 97.7,
+    "internet": null,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -1988,7 +3608,16 @@
     "infantMortality": 12.69,
     "lifeExpectancy": 75.09,
     "healthExpenditures": 5.2,
-    "obesity": 23.4
+    "obesity": 23.4,
+    "education": 5.1,
+    "unemployment": 18.8,
+    "area": 389,
+    "budget": 0,
+    "debt": 0.2487,
+    "fossilFuels": 85.1,
+    "internet": 74.05,
+    "airports": 6,
+    "military": null
   },
   {
     "name": "Samoa",
@@ -1999,7 +3628,16 @@
     "infantMortality": 19.57,
     "lifeExpectancy": 73.46,
     "healthExpenditures": 6.8,
-    "obesity": 54.1
+    "obesity": 54.1,
+    "education": 5.8,
+    "unemployment": null,
+    "area": 2831,
+    "budget": -5.2,
+    "debt": 0.3683,
+    "fossilFuels": 71.3,
+    "internet": 13.96,
+    "airports": 4,
+    "military": null
   },
   {
     "name": "San Marino",
@@ -2010,7 +3648,16 @@
     "infantMortality": 4.45,
     "lifeExpectancy": 83.24,
     "healthExpenditures": 6.5,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 7,
+    "area": 61,
+    "budget": -2.9,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 52.09,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Sao Tome and Principe",
@@ -2021,7 +3668,16 @@
     "infantMortality": 47.88,
     "lifeExpectancy": 64.58,
     "healthExpenditures": 7.9,
-    "obesity": 9.5
+    "obesity": 9.5,
+    "education": 9.5,
+    "unemployment": null,
+    "area": 964,
+    "budget": -10.2,
+    "debt": 0.4164,
+    "fossilFuels": 75,
+    "internet": 24.23,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Saudi Arabia",
@@ -2032,7 +3688,16 @@
     "infantMortality": 14.09,
     "lifeExpectancy": 75.05,
     "healthExpenditures": 3.2,
-    "obesity": 33
+    "obesity": 33,
+    "education": 5.1,
+    "unemployment": 11.2,
+    "area": 2149690,
+    "budget": -1.9,
+    "debt": 164.3,
+    "fossilFuels": 100,
+    "internet": 58.37,
+    "airports": 214,
+    "military": 7.98
   },
   {
     "name": "Senegal",
@@ -2043,7 +3708,16 @@
     "infantMortality": 51.54,
     "lifeExpectancy": 61.32,
     "healthExpenditures": 5,
-    "obesity": 6.8
+    "obesity": 6.8,
+    "education": 5.6,
+    "unemployment": 48,
+    "area": 196722,
+    "budget": -5.2,
+    "debt": 5.747,
+    "fossilFuels": 99.7,
+    "internet": 21.47,
+    "airports": 20,
+    "military": null
   },
   {
     "name": "Serbia",
@@ -2054,7 +3728,16 @@
     "infantMortality": 6.05,
     "lifeExpectancy": 75.26,
     "healthExpenditures": 10.5,
-    "obesity": 24.8
+    "obesity": 24.8,
+    "education": 4.8,
+    "unemployment": 26.1,
+    "area": 77474,
+    "budget": -6.9,
+    "debt": 35.62,
+    "fossilFuels": 57.5,
+    "internet": 50.16,
+    "airports": 26,
+    "military": 2.21
   },
   {
     "name": "Seychelles",
@@ -2065,7 +3748,16 @@
     "infantMortality": 10.49,
     "lifeExpectancy": 74.49,
     "healthExpenditures": 4.7,
-    "obesity": 23.9
+    "obesity": 23.9,
+    "education": 3.6,
+    "unemployment": 2,
+    "area": 455,
+    "budget": 1.6,
+    "debt": 2.099,
+    "fossilFuels": 100,
+    "internet": 53.34,
+    "airports": 14,
+    "military": 0.89
   },
   {
     "name": "Sierra Leone",
@@ -2076,7 +3768,16 @@
     "infantMortality": 71.68,
     "lifeExpectancy": 57.79,
     "healthExpenditures": 15.1,
-    "obesity": 6.8
+    "obesity": 6.8,
+    "education": 2.9,
+    "unemployment": null,
+    "area": 71740,
+    "budget": -3.3,
+    "debt": 1.46,
+    "fossilFuels": 33.3,
+    "internet": 1.46,
+    "airports": 8,
+    "military": 0.72
   },
   {
     "name": "Singapore",
@@ -2087,7 +3788,16 @@
     "infantMortality": 2.48,
     "lifeExpectancy": 84.68,
     "healthExpenditures": 4.7,
-    "obesity": 7.1
+    "obesity": 7.1,
+    "education": 3,
+    "unemployment": 1.9,
+    "area": 697,
+    "budget": 0.5,
+    "debt": 28.93,
+    "fossilFuels": 97.4,
+    "internet": 79.3,
+    "airports": 9,
+    "military": 3.52
   },
   {
     "name": "Sint Maarten",
@@ -2098,7 +3808,16 @@
     "infantMortality": 9.05,
     "lifeExpectancy": 77.61,
     "healthExpenditures": null,
-    "obesity": 25.4
+    "obesity": 25.4,
+    "education": null,
+    "unemployment": 12,
+    "area": 34,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Slovakia",
@@ -2109,7 +3828,16 @@
     "infantMortality": 5.27,
     "lifeExpectancy": 76.88,
     "healthExpenditures": 7.8,
-    "obesity": null
+    "obesity": null,
+    "education": 4.2,
+    "unemployment": 12.7,
+    "area": 49035,
+    "budget": -2.8,
+    "debt": 68.44,
+    "fossilFuels": 43.6,
+    "internet": 82.64,
+    "airports": 35,
+    "military": 1.12
   },
   {
     "name": "Slovenia",
@@ -2120,7 +3848,16 @@
     "infantMortality": 4,
     "lifeExpectancy": 78.01,
     "healthExpenditures": 8.8,
-    "obesity": 28.6
+    "obesity": 28.6,
+    "education": 5.7,
+    "unemployment": 13.6,
+    "area": 20273,
+    "budget": -4,
+    "debt": 52.53,
+    "fossilFuels": 36.6,
+    "internet": 70.59,
+    "airports": 16,
+    "military": 1.18
   },
   {
     "name": "Solomon Islands",
@@ -2131,7 +3868,16 @@
     "infantMortality": 15.65,
     "lifeExpectancy": 75.12,
     "healthExpenditures": 8,
-    "obesity": 30
+    "obesity": 30,
+    "education": 7.3,
+    "unemployment": null,
+    "area": 28896,
+    "budget": 0,
+    "debt": 0.2555,
+    "fossilFuels": 100,
+    "internet": 7.45,
+    "airports": 36,
+    "military": null
   },
   {
     "name": "Somalia",
@@ -2142,7 +3888,16 @@
     "infantMortality": 98.39,
     "lifeExpectancy": 51.96,
     "healthExpenditures": null,
-    "obesity": 4.8
+    "obesity": 4.8,
+    "education": null,
+    "unemployment": null,
+    "area": 637657,
+    "budget": null,
+    "debt": 3.05,
+    "fossilFuels": 100,
+    "internet": 1.48,
+    "airports": 61,
+    "military": null
   },
   {
     "name": "South Africa",
@@ -2153,7 +3908,16 @@
     "infantMortality": 32.99,
     "lifeExpectancy": 62.34,
     "healthExpenditures": 8.8,
-    "obesity": 31.3
+    "obesity": 31.3,
+    "education": 6,
+    "unemployment": 25,
+    "area": 1219090,
+    "budget": -4.4,
+    "debt": 143,
+    "fossilFuels": 93.6,
+    "internet": 46.2,
+    "airports": 566,
+    "military": 1
   },
   {
     "name": "South Sudan",
@@ -2164,7 +3928,16 @@
     "infantMortality": 66.39,
     "lifeExpectancy": null,
     "healthExpenditures": 2.6,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 644329,
+    "budget": -15.3,
+    "debt": null,
+    "fossilFuels": 30.7,
+    "internet": null,
+    "airports": 85,
+    "military": 10.32
   },
   {
     "name": "Spain",
@@ -2175,7 +3948,16 @@
     "infantMortality": 3.3,
     "lifeExpectancy": 81.57,
     "healthExpenditures": 9.6,
-    "obesity": 26.6
+    "obesity": 26.6,
+    "education": 5,
+    "unemployment": 24.3,
+    "area": 505370,
+    "budget": -5.6,
+    "debt": 2278,
+    "fossilFuels": 43,
+    "internet": 73.73,
+    "airports": 150,
+    "military": 0.86
   },
   {
     "name": "Sri Lanka",
@@ -2186,7 +3968,16 @@
     "infantMortality": 8.8,
     "lifeExpectancy": 76.56,
     "healthExpenditures": 3.3,
-    "obesity": 5.1
+    "obesity": 5.1,
+    "education": 1.7,
+    "unemployment": 4.2,
+    "area": 65610,
+    "budget": -5.8,
+    "debt": 27.11,
+    "fossilFuels": 55.4,
+    "internet": 19.95,
+    "airports": 19,
+    "military": 2.43
   },
   {
     "name": "Sudan",
@@ -2197,7 +3988,16 @@
     "infantMortality": 51.52,
     "lifeExpectancy": 63.68,
     "healthExpenditures": 7.2,
-    "obesity": 6
+    "obesity": 6,
+    "education": null,
+    "unemployment": 20,
+    "area": 1861484,
+    "budget": -2.6,
+    "debt": 47.45,
+    "fossilFuels": 30.7,
+    "internet": 23.54,
+    "airports": 74,
+    "military": null
   },
   {
     "name": "Suriname",
@@ -2208,7 +4008,16 @@
     "infantMortality": 26.17,
     "lifeExpectancy": 71.97,
     "healthExpenditures": 5.9,
-    "obesity": 25.1
+    "obesity": 25.1,
+    "education": null,
+    "unemployment": 9,
+    "area": 163820,
+    "budget": -4,
+    "debt": 1.037,
+    "fossilFuels": 54.1,
+    "internet": 36.73,
+    "airports": 55,
+    "military": null
   },
   {
     "name": "Svalbard",
@@ -2219,7 +4028,16 @@
     "infantMortality": null,
     "lifeExpectancy": 51.05,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 62045,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": null,
+    "airports": 4,
+    "military": null
   },
   {
     "name": "Swaziland",
@@ -2230,7 +4048,16 @@
     "infantMortality": 52.57,
     "lifeExpectancy": null,
     "healthExpenditures": 8.5,
-    "obesity": 19.7
+    "obesity": 19.7,
+    "education": 8.3,
+    "unemployment": 40,
+    "area": 17364,
+    "budget": -1.5,
+    "debt": 0.5683,
+    "fossilFuels": 59.7,
+    "internet": 23.5,
+    "airports": 14,
+    "military": 3.17
   },
   {
     "name": "Sweden",
@@ -2241,7 +4068,16 @@
     "infantMortality": 2.6,
     "lifeExpectancy": 81.98,
     "healthExpenditures": 9.6,
-    "obesity": 18.6
+    "obesity": 18.6,
+    "education": 7,
+    "unemployment": 7.9,
+    "area": 450295,
+    "budget": -2.2,
+    "debt": 1039,
+    "fossilFuels": 7.1,
+    "internet": 88.76,
+    "airports": 231,
+    "military": 1.18
   },
   {
     "name": "Switzerland",
@@ -2252,7 +4088,16 @@
     "infantMortality": 3.67,
     "lifeExpectancy": 82.5,
     "healthExpenditures": 11.3,
-    "obesity": 17.5
+    "obesity": 17.5,
+    "education": 5.2,
+    "unemployment": 3.2,
+    "area": 41277,
+    "budget": 0.3,
+    "debt": 1544,
+    "fossilFuels": 3,
+    "internet": 87.42,
+    "airports": 63,
+    "military": 0.76
   },
   {
     "name": "Syria",
@@ -2263,7 +4108,16 @@
     "infantMortality": 15.61,
     "lifeExpectancy": 74.69,
     "healthExpenditures": 3.4,
-    "obesity": 27.1
+    "obesity": 27.1,
+    "education": 5.1,
+    "unemployment": 33,
+    "area": 185180,
+    "budget": -5.8,
+    "debt": 11.64,
+    "fossilFuels": 89.2,
+    "internet": 28.13,
+    "airports": 90,
+    "military": null
   },
   {
     "name": "Taiwan",
@@ -2274,7 +4128,16 @@
     "infantMortality": 4.44,
     "lifeExpectancy": 79.98,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 3.8,
+    "area": 35980,
+    "budget": -1.3,
+    "debt": 191.9,
+    "fossilFuels": 81.6,
+    "internet": 68.76,
+    "airports": 37,
+    "military": null
   },
   {
     "name": "Tajikistan",
@@ -2285,7 +4148,16 @@
     "infantMortality": 33.93,
     "lifeExpectancy": 67.39,
     "healthExpenditures": 5.8,
-    "obesity": 8.6
+    "obesity": 8.6,
+    "education": 3.9,
+    "unemployment": 2.5,
+    "area": 143100,
+    "budget": -0.4,
+    "debt": 3.821,
+    "fossilFuels": 9,
+    "internet": 15.87,
+    "airports": 24,
+    "military": null
   },
   {
     "name": "Tanzania",
@@ -2296,7 +4168,16 @@
     "infantMortality": 42.43,
     "lifeExpectancy": 61.71,
     "healthExpenditures": 7,
-    "obesity": 5
+    "obesity": 5,
+    "education": 6.2,
+    "unemployment": null,
+    "area": 947300,
+    "budget": -6,
+    "debt": 15.35,
+    "fossilFuels": 33.5,
+    "internet": 14.5,
+    "airports": 166,
+    "military": 1.13
   },
   {
     "name": "Thailand",
@@ -2307,7 +4188,16 @@
     "infantMortality": 9.63,
     "lifeExpectancy": 74.43,
     "healthExpenditures": 3.9,
-    "obesity": 8.8
+    "obesity": 8.8,
+    "education": 5.8,
+    "unemployment": 1,
+    "area": 513120,
+    "budget": -2.2,
+    "debt": 150.8,
+    "fossilFuels": 89,
+    "internet": 28.69,
+    "airports": 101,
+    "military": 1.47
   },
   {
     "name": "Timor-Leste",
@@ -2318,7 +4208,16 @@
     "infantMortality": 37.54,
     "lifeExpectancy": 67.72,
     "healthExpenditures": 4.3,
-    "obesity": 2.7
+    "obesity": 2.7,
+    "education": 9.4,
+    "unemployment": 18.4,
+    "area": 14874,
+    "budget": -31,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 0.97,
+    "airports": 6,
+    "military": 2.92
   },
   {
     "name": "Togo",
@@ -2329,7 +4228,16 @@
     "infantMortality": 45.22,
     "lifeExpectancy": 64.51,
     "healthExpenditures": 8.6,
-    "obesity": 4.3
+    "obesity": 4.3,
+    "education": 4.5,
+    "unemployment": null,
+    "area": 56785,
+    "budget": -4.9,
+    "debt": 0.9263,
+    "fossilFuels": 21.7,
+    "internet": 4.45,
+    "airports": 8,
+    "military": null
   },
   {
     "name": "Tokelau",
@@ -2340,7 +4248,16 @@
     "infantMortality": null,
     "lifeExpectancy": null,
     "healthExpenditures": null,
-    "obesity": 63.4
+    "obesity": 63.4,
+    "education": null,
+    "unemployment": null,
+    "area": 12,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 59.84,
+    "airports": null,
+    "military": null
   },
   {
     "name": "Tonga",
@@ -2351,7 +4268,16 @@
     "infantMortality": 11.96,
     "lifeExpectancy": 76.04,
     "healthExpenditures": 5.4,
-    "obesity": 57.6
+    "obesity": 57.6,
+    "education": 3.9,
+    "unemployment": 13,
+    "area": 747,
+    "budget": 0,
+    "debt": 0.2185,
+    "fossilFuels": 100,
+    "internet": 37.93,
+    "airports": 6,
+    "military": null
   },
   {
     "name": "Trinidad and Tobago",
@@ -2362,7 +4288,16 @@
     "infantMortality": 23.9,
     "lifeExpectancy": 72.59,
     "healthExpenditures": 5.4,
-    "obesity": 29.3
+    "obesity": 29.3,
+    "education": 3.2,
+    "unemployment": 5.3,
+    "area": 5128,
+    "budget": -2.6,
+    "debt": 4.924,
+    "fossilFuels": 99.8,
+    "internet": 63.8,
+    "airports": 4,
+    "military": null
   },
   {
     "name": "Tunisia",
@@ -2373,7 +4308,16 @@
     "infantMortality": 22.35,
     "lifeExpectancy": 75.89,
     "healthExpenditures": 7,
-    "obesity": 22.3
+    "obesity": 22.3,
+    "education": 6.2,
+    "unemployment": 15.2,
+    "area": 163610,
+    "budget": -6.4,
+    "debt": 29.56,
+    "fossilFuels": 97.1,
+    "internet": 45.3,
+    "airports": 29,
+    "military": 1.55
   },
   {
     "name": "Turkey",
@@ -2384,7 +4328,16 @@
     "infantMortality": 18.87,
     "lifeExpectancy": 74.57,
     "healthExpenditures": 6.3,
-    "obesity": 27.8
+    "obesity": 27.8,
+    "education": 2.9,
+    "unemployment": 9.4,
+    "area": 783562,
+    "budget": -2.4,
+    "debt": 407.1,
+    "fossilFuels": 62.8,
+    "internet": 46.09,
+    "airports": 98,
+    "military": 2.31
   },
   {
     "name": "Turkmenistan",
@@ -2395,7 +4348,16 @@
     "infantMortality": 36.82,
     "lifeExpectancy": 69.78,
     "healthExpenditures": 2,
-    "obesity": 13.2
+    "obesity": 13.2,
+    "education": null,
+    "unemployment": 60,
+    "area": 488100,
+    "budget": 1,
+    "debt": 0.5784,
+    "fossilFuels": 100,
+    "internet": 7.92,
+    "airports": 26,
+    "military": null
   },
   {
     "name": "Turks and Caicos Islands",
@@ -2406,7 +4368,16 @@
     "infantMortality": 10.65,
     "lifeExpectancy": 79.69,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 10,
+    "area": 948,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": null,
+    "airports": 8,
+    "military": null
   },
   {
     "name": "Tuvalu",
@@ -2417,7 +4388,16 @@
     "infantMortality": 30.8,
     "lifeExpectancy": 66.16,
     "healthExpenditures": 15.4,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": null,
+    "area": 26,
+    "budget": -3.9,
+    "debt": null,
+    "fossilFuels": null,
+    "internet": 37.72,
+    "airports": 1,
+    "military": null
   },
   {
     "name": "Uganda",
@@ -2428,7 +4408,16 @@
     "infantMortality": 59.21,
     "lifeExpectancy": 54.93,
     "healthExpenditures": 8,
-    "obesity": 4.3
+    "obesity": 4.3,
+    "education": 3.3,
+    "unemployment": null,
+    "area": 241038,
+    "budget": -3.8,
+    "debt": 5.1,
+    "fossilFuels": 21,
+    "internet": 16.17,
+    "airports": 47,
+    "military": 1.45
   },
   {
     "name": "Ukraine",
@@ -2439,7 +4428,16 @@
     "infantMortality": 8.12,
     "lifeExpectancy": 71.57,
     "healthExpenditures": 7.6,
-    "obesity": 21.3
+    "obesity": 21.3,
+    "education": 6.2,
+    "unemployment": 8.8,
+    "area": 603550,
+    "budget": -5,
+    "debt": 153.6,
+    "fossilFuels": 64.9,
+    "internet": 37.81,
+    "airports": 187,
+    "military": 2.77
   },
   {
     "name": "United Arab Emirates",
@@ -2450,7 +4448,16 @@
     "infantMortality": 10.59,
     "lifeExpectancy": 77.29,
     "healthExpenditures": 2.8,
-    "obesity": 32.7
+    "obesity": 32.7,
+    "education": null,
+    "unemployment": 2.4,
+    "area": 83600,
+    "budget": 5.9,
+    "debt": 173.3,
+    "fossilFuels": 100,
+    "internet": 89.97,
+    "airports": 43,
+    "military": null
   },
   {
     "name": "United Kingdom",
@@ -2461,7 +4468,16 @@
     "infantMortality": 4.38,
     "lifeExpectancy": 80.54,
     "healthExpenditures": 9.4,
-    "obesity": 26.9
+    "obesity": 26.9,
+    "education": 6.2,
+    "unemployment": 5.7,
+    "area": 243610,
+    "budget": -4.8,
+    "debt": 9577,
+    "fossilFuels": 76,
+    "internet": 89.41,
+    "airports": 460,
+    "military": 2.49
   },
   {
     "name": "United States",
@@ -2472,7 +4488,16 @@
     "infantMortality": 5.87,
     "lifeExpectancy": 79.68,
     "healthExpenditures": 17.9,
-    "obesity": 33
+    "obesity": 33,
+    "education": 5.4,
+    "unemployment": 6.2,
+    "area": 9826675,
+    "budget": -2.8,
+    "debt": 15680,
+    "fossilFuels": 76.3,
+    "internet": 86.07,
+    "airports": 13513,
+    "military": 4.35
   },
   {
     "name": "Uruguay",
@@ -2483,7 +4508,16 @@
     "infantMortality": 8.74,
     "lifeExpectancy": 77,
     "healthExpenditures": 8.9,
-    "obesity": 24.8
+    "obesity": 24.8,
+    "education": 4.5,
+    "unemployment": 6.7,
+    "area": 176215,
+    "budget": -3.4,
+    "debt": 17.54,
+    "fossilFuels": 41.6,
+    "internet": 59.85,
+    "airports": 133,
+    "military": 1.95
   },
   {
     "name": "Uzbekistan",
@@ -2494,7 +4528,16 @@
     "infantMortality": 19.2,
     "lifeExpectancy": 73.55,
     "healthExpenditures": 5.9,
-    "obesity": 15.1
+    "obesity": 15.1,
+    "education": null,
+    "unemployment": 4.9,
+    "area": 447400,
+    "budget": -1,
+    "debt": 8.751,
+    "fossilFuels": 86,
+    "internet": 40.41,
+    "airports": 53,
+    "military": null
   },
   {
     "name": "Vanuatu",
@@ -2505,7 +4548,16 @@
     "infantMortality": 15.7,
     "lifeExpectancy": 73.06,
     "healthExpenditures": 3.6,
-    "obesity": 27.5
+    "obesity": 27.5,
+    "education": 5,
+    "unemployment": 1.7,
+    "area": 12189,
+    "budget": -1.9,
+    "debt": 0.3077,
+    "fossilFuels": 89.3,
+    "internet": 11.31,
+    "airports": 31,
+    "military": null
   },
   {
     "name": "Venezuela",
@@ -2516,7 +4568,16 @@
     "infantMortality": 18.91,
     "lifeExpectancy": 74.54,
     "healthExpenditures": 4.6,
-    "obesity": 30.3
+    "obesity": 30.3,
+    "education": 6.9,
+    "unemployment": 7.8,
+    "area": 912050,
+    "budget": -29.4,
+    "debt": 69.66,
+    "fossilFuels": 35.7,
+    "internet": 46.46,
+    "airports": 444,
+    "military": 1.05
   },
   {
     "name": "Vietnam",
@@ -2527,7 +4588,16 @@
     "infantMortality": 18.39,
     "lifeExpectancy": 73.16,
     "healthExpenditures": 6.6,
-    "obesity": 1.7
+    "obesity": 1.7,
+    "education": 6.3,
+    "unemployment": 3.1,
+    "area": 331210,
+    "budget": -4.6,
+    "debt": 68.05,
+    "fossilFuels": 55,
+    "internet": 42.5,
+    "airports": 45,
+    "military": 2.37
   },
   {
     "name": "Virgin Islands",
@@ -2538,7 +4608,16 @@
     "infantMortality": 6.64,
     "lifeExpectancy": 79.89,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 6.2,
+    "area": 1910,
+    "budget": null,
+    "debt": null,
+    "fossilFuels": 100,
+    "internet": 28.96,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Wallis and Futuna",
@@ -2549,7 +4628,16 @@
     "infantMortality": 4.43,
     "lifeExpectancy": 79.57,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 12.2,
+    "area": 142,
+    "budget": null,
+    "debt": 0.00367,
+    "fossilFuels": null,
+    "internet": 8.33,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "West Bank",
@@ -2560,7 +4648,16 @@
     "infantMortality": 13.08,
     "lifeExpectancy": 75.91,
     "healthExpenditures": null,
-    "obesity": null
+    "obesity": null,
+    "education": null,
+    "unemployment": 16,
+    "area": 5860,
+    "budget": -23.1,
+    "debt": 1.04,
+    "fossilFuels": 100,
+    "internet": 50.26,
+    "airports": 2,
+    "military": null
   },
   {
     "name": "Yemen",
@@ -2571,7 +4668,16 @@
     "infantMortality": 48.93,
     "lifeExpectancy": 65.18,
     "healthExpenditures": 5.5,
-    "obesity": 14.5
+    "obesity": 14.5,
+    "education": 5.2,
+    "unemployment": 27,
+    "area": 527968,
+    "budget": -9,
+    "debt": 8.002,
+    "fossilFuels": 100,
+    "internet": 18.7,
+    "airports": 57,
+    "military": 4.02
   },
   {
     "name": "Zambia",
@@ -2582,7 +4688,16 @@
     "infantMortality": 64.72,
     "lifeExpectancy": 52.15,
     "healthExpenditures": 6.5,
-    "obesity": 3.6
+    "obesity": 3.6,
+    "education": 1.3,
+    "unemployment": 15,
+    "area": 752618,
+    "budget": -5.9,
+    "debt": 7.384,
+    "fossilFuels": 0.4,
+    "internet": 15.27,
+    "airports": 88,
+    "military": 1.55
   },
   {
     "name": "Zimbabwe",
@@ -2593,6 +4708,15 @@
     "infantMortality": 26.11,
     "lifeExpectancy": 57.05,
     "healthExpenditures": 0,
-    "obesity": 7
+    "obesity": 7,
+    "education": 2.5,
+    "unemployment": 95,
+    "area": 390757,
+    "budget": null,
+    "debt": 9.361,
+    "fossilFuels": 62.1,
+    "internet": 18.97,
+    "airports": 196,
+    "military": 2.94
   }
 ]

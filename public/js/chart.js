@@ -75,7 +75,7 @@ svg.append("g")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", 4.5)
+      .attr("r", 4)
       .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
       .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
       .style("fill", function(d) { return color(d.population); })
@@ -100,7 +100,7 @@ svg.append("g")
          console.log("mouseout");
       });
 
-  
+       
   $( "#target" ).submit(function( event ) {
                         selectedYAxis = $("select.yOptions option:selected").val();
                         selectedXAxis = $("select.xOptions option:selected").val();
@@ -127,6 +127,8 @@ svg.append("g")
         return "whah?";
     }
   };
+  
+
 
   function update() {
     
