@@ -26,3 +26,30 @@
   stroke: #999;
   stroke-opacity: .6;
 }
+
+
+.menu-1, .menu-2, #submit{
+  display:inline-block;
+}
+
+#submit-button{
+  background:#eeeeee;
+  border-radius:5px;
+  width:50px;
+  height:25px;
+  font-size:0.9em;
+  box-shadow:none !important;
+}
+
+#rankings-header{
+  margin-left:5%;
+  padding-right:10%;
+}
+
+#rankings-search{
+  width:25%;
+}
+
+#nation-table{
+  padding-right:10%;
+}

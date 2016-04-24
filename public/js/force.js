@@ -1,12 +1,14 @@
 var width = 960,
-    height = 500;
+    height = 750;
 
-var color = d3.scale.category20();
+var margin = 200;
+
+//var color = d3.scale.category20();
 
 var force = d3.layout.force()
-    .charge(-920)
-    .linkDistance(200)
-    .size([width, height]);
+    .charge(-150)
+    .linkDistance(100)
+    .size([(width - margin), (height - (margin / 2))]);
 
 var svg = d3.select("#force").append("svg")
     .attr("width", width)
@@ -31,7 +33,7 @@ d3.json("js/force.json", function(error, graph) {
     .enter().append("circle")
       .attr("class", "node")
       .attr("r", function(d){ return setRadius(d);})
-      .style("fill", function(d) { return color(d.group); })
+      .style("fill", function(d) { return d.color; })
       .call(force.drag);
 
 
@@ -52,7 +54,7 @@ d3.json("js/force.json", function(error, graph) {
         if (d.perCapitaGdp == null) {
             return 5;
         }else{
-        return (d.perCapitaGdp / 2000);
+        return (d.perCapitaGdp / 1800);
         }
  };
  
