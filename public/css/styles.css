@@ -27,7 +27,6 @@
   stroke-opacity: .6;
 }
 
-
 .menu-1, .menu-2, #submit{
   display:inline-block;
 }
@@ -47,9 +46,19 @@
 }
 
 #rankings-search{
+  float:right;
+  margin-top:10px;
   width:25%;
 }
 
 #nation-table{
   padding-right:10%;
+}
+
+#ranking-tabs{
+  margin-left:5%;
+}
+
+#appendix-population{
+  display:none;
 }
