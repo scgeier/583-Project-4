@@ -42,7 +42,7 @@
 #rankings-header{
   margin-left:5%;
   padding-right:10%;
-  height:25%;
+  height:26%;
 }
 
 
@@ -60,6 +60,6 @@
   margin-left:5%;
 }
 
-#appendix-population, #appendix-pop-growth, #appendix-migration {
+#appendix-population, #appendix-pop-growth, #appendix-migration, #appendix-infant, #appendix-life, #appendix-obesity, #appendix-GDP, #appendix-unemployment, #appendix-budget, #appendix-debt, #appendix-education, #appendix-military, #appendix-area, #appendix-fossil, #appendix-airports, #appendix-internet {
   display:none;
 }
