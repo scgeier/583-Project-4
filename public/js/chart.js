@@ -34,6 +34,7 @@ var svg = d3.select("#chart").append("svg")
 var tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip")
                 .style("position", "absolute")
+                .style("background", "white")
                 .style("opacity", 0);
   
   
@@ -88,14 +89,15 @@ var dots = svg.selectAll(".dot")
       .on("mouseenter", function(d){
         //if (d.background !== undefined) {//
                   
-         tooltip.transition()
+         tooltip.transition(d)
           .delay(200)
           .attr("class", "summary")
-          .style("opacity", 1)
-          .style("left", "70%")
-          .style("bottom", "45%")
+          .style("opacity", .8)
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY) + "px")
   
-        tooltip.html("<h3>" + d.name + "</h3>")
+        tooltip.html("<h4>" + d.name + "</h4>" + selectedXAxis + ": " + d[selectedXAxis] + xUnits() + "</br>"
+                     + selectedYAxis + ": " + d[selectedYAxis] + yUnits())
         
         console.log(d.name);
       })
@@ -208,6 +210,82 @@ function hideNulls(d) {
         return 0;
     }else{
         return 4;
+    }
+};
+
+var xUnits = function () {
+    if (selectedXAxis == "obesity"){
+        return "%";
+    }else if(selectedXAxis  == "healthExpenditures"){
+        return "% of GDP";
+    }else if(selectedXAxis  == "population"){
+        return "million people";
+    }else if(selectedXAxis  == "popGrowth"){
+        return "%";
+    }else if(selectedXAxis  == "perCapitaGdp"){
+        return "(US $)";
+    }else if(selectedXAxis  == "migration"){
+        return "(per 1,000 people)";
+    }else if(selectedXAxis  == "infantMortality"){
+        return "(deaths per 1000 births)";
+    }else if(selectedXAxis  == "lifeExpectancy"){
+        return "years";
+    }else if(selectedXAxis  == "education"){
+        return "% of GDP";
+    }else if(selectedXAxis  == "unemployment"){
+        return "%";
+    }else if(selectedXAxis  == "area"){
+        return "(x 1,000 sq km)";
+    }else if(selectedXAxis  == "budget"){
+        return "% of GDP";
+    }else if(selectedXAxis  == "debt"){
+        return "(billion US $)";
+    }else if(selectedXAxis  == "fossilFuels"){
+        return "% of total installed electrical capacity ";
+    }else if(selectedXAxis  == "internet"){
+        return "% of population";
+    }else if(selectedXAxis  == "airports"){
+        return "Airports";
+    }else if(selectedXAxis  == "military"){
+        return "% of GDP";
+    }
+};
+
+var yUnits = function () {
+    if (selectedYAxis == "obesity"){
+        return "%";
+    }else if(selectedYAxis  == "healthExpenditures"){
+        return "% of GDP";
+    }else if(selectedYAxis  == "population"){
+        return "million people";
+    }else if(selectedYAxis  == "popGrowth"){
+        return "%";
+    }else if(selectedYAxis  == "perCapitaGdp"){
+        return "(US $)";
+    }else if(selectedYAxis  == "migration"){
+        return "(per 1,000 people)";
+    }else if(selectedYAxis  == "infantMortality"){
+        return "(deaths per 1000 births)";
+    }else if(selectedYAxis  == "lifeExpectancy"){
+        return "years";
+    }else if(selectedYAxis  == "education"){
+        return "% of GDP";
+    }else if(selectedYAxis  == "unemployment"){
+        return "%";
+    }else if(selectedYAxis  == "area"){
+        return "(x 1,000 sq km)";
+    }else if(selectedYAxis  == "budget"){
+        return "% of GDP";
+    }else if(selectedYAxis  == "debt"){
+        return "(billion US $)";
+    }else if(selectedYAxis  == "fossilFuels"){
+        return "% of total installed electrical capacity ";
+    }else if(selectedYAxis  == "internet"){
+        return "% of population";
+    }else if(selectedYAxis  == "airports"){
+        return "Airports";
+    }else if(selectedYAxis  == "military"){
+        return "% of GDP";
     }
 };
 
