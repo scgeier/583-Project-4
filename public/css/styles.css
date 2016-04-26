@@ -43,11 +43,12 @@
 #rankings-header{
   margin-left:5%;
   padding-right:10%;
+  height:20%;
 }
 
 #rankings-search{
   float:right;
-  margin-top:10px;
+  margin-top:2%;
   width:25%;
 }
 
@@ -59,6 +60,6 @@
   margin-left:5%;
 }
 
-#appendix-population{
+#appendix-population, #appendix-pop-growth{
   display:none;
 }

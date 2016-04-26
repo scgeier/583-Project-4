@@ -1,0 +1,14 @@
+[
+  {
+    "id":"b65df9",
+    "name": "Population",
+    "summary": "This entry gives an estimate from the US Bureau of the Census based on statistics from population censuses, vital statistics registration systems, or sample surveys pertaining to the recent past and on assumptions about future trends. The total population presents one overall measure of the potential impact of the country on the world and within its region.",
+    "isVisible": false
+  },
+   {
+    "id":"44us19a",
+    "name": "Population Growth",
+    "summary": "The average annual percent change in the population, resulting from a surplus (or deficit) of births over deaths and the balance of migrants entering and leaving a country. The rate may be positive or negative. The growth rate is a factor in determining how great a burden would be imposed on a country by the changing needs of its people for infrastructure (e.g., schools, hospitals, housing, roads), resources (e.g., food, water, electricity), and jobs. Rapid population growth can be seen as threatening by neighboring countries.",
+    "isVisible": false
+  }
+]

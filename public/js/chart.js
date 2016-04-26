@@ -81,11 +81,10 @@ svg.append("g")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", 4)
+      .attr("r", hideNulls)
       .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
       .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
       .style("fill", function(d) { return color(d.population); })
-      //.style("opacity", function(d) { return hideNulls(); })
       .on("mouseenter", function(d){
         //if (d.background !== undefined) {//
                   
@@ -199,13 +198,13 @@ function labelPosition(d) {
     }
 };
 
-//function hideNulls(d) {
-   // if ((d[selectedXAxis] == null) || (d[selectedYAxis] == null)) {
-        //return 0;
-    //}else{
-        //return 1;
-    //}
-//};
+function hideNulls(d) {
+    if ((d[selectedXAxis] == null) || (d[selectedYAxis] == null)){
+        return 0;
+    }else{
+        return 4;
+    }
+};
 
   function update() {
     
@@ -231,9 +230,9 @@ function labelPosition(d) {
       .transition()
       .duration(2000)
       .ease("elastic")
+      .attr("r", hideNulls)
       .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
       .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
-      //.style("opacity", function(d) { return hideNulls(); })
 };
  
   });//close d3.json
