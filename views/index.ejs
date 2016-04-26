@@ -41,13 +41,16 @@
  <div id="chart"></div>
 </div>
 
-<div class="col-md-4 col-xs-12">
-<div id="dropdown">
+<div class="col-md-4 col-xs-12" id="chart-description">
+<div id="scatterplot-intro">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-<form id="target">
- <div class="menu-1">
-  <select class="xOptions">
-    <option value="">--Select an X Axis--</option>
+</div>
+
+<div id="scatterplot-dropdown">
+<form role="form" id="target">
+    <div class="form-group">
+      <label for="sel1">Choose an X Axis:</label>
+      <select class="form-control" id="xOptions">
     <option value="area">Area</option>
     <option value="population">Population</option>
     <option value="popGrowth">Population Growth</option>
@@ -65,11 +68,9 @@
     <option value="fossilFuels">Electricty from Fossil Fuels</option>
     <option value="internet">Internet Use</option>
     <option value="airports">Number of Airports</option>
-  </select>
- </div>
- <div class="menu-2">
-   <select class="yOptions">
-    <option value="">--Select a Y Axis--</option>
+      </select>
+  <label for="sel2">Choose a Y Axis</label>
+      <select class="form-control" id="yOptions">
     <option value="area">Area</option>
     <option value="population">Population</option>
     <option value="popGrowth">Population Growth</option>
@@ -87,15 +88,14 @@
     <option value="fossilFuels">Electricty from Fossil Fuels</option>
     <option value="internet">Internet Use</option>
     <option value="airports">Number of Airports</option>
-  </select>
- </div>
- <div id="submit">
-  <button id="submit-button" input type="submit">Submit</button>
- </div>
-</form>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
 </div>
 </div>
 </div>
+
 
 
 

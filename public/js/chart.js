@@ -77,13 +77,13 @@ svg.append("g")
       .style("text-anchor", "end")
       .text(function(d){ return setYAxisText();});
 
- svg.selectAll(".dot")
+var dots = svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", hideNulls)
-      .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
-      .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
+      .attr("cx", 150)
+      .attr("cy", 50)
       .style("fill", function(d) { return color(d.population); })
       .on("mouseenter", function(d){
         //if (d.background !== undefined) {//
@@ -106,10 +106,15 @@ svg.append("g")
          console.log("mouseout");
       });
 
+dots.transition()
+    .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
+    .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
+    .duration(3000)
+    .ease("elastic");
        
   $( "#target" ).submit(function( event ) {
-                        selectedYAxis = $("select.yOptions option:selected").val();
-                        selectedXAxis = $("select.xOptions option:selected").val();
+                        selectedYAxis = $("select#yOptions option:selected").val();
+                        selectedXAxis = $("select#xOptions option:selected").val();
                         console.log(selectedXAxis + selectedYAxis);
                         update();
      }); //close selected X function

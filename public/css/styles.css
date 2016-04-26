@@ -31,13 +31,12 @@
   display:inline-block;
 }
 
-#submit-button{
-  background:#eeeeee;
-  border-radius:5px;
-  width:50px;
-  height:25px;
-  font-size:0.9em;
-  box-shadow:none !important;
+#chart-description{
+  padding-right:5%;
+}
+
+#scatterplot-dropdown{
+  margin-top:5%;
 }
 
 #rankings-header{
@@ -45,6 +44,7 @@
   padding-right:10%;
   height:20%;
 }
+
 
 #rankings-search{
   float:right;
@@ -60,6 +60,6 @@
   margin-left:5%;
 }
 
-#appendix-population, #appendix-pop-growth{
+#appendix-population, #appendix-pop-growth {
   display:none;
 }
