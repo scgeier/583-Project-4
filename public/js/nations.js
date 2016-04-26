@@ -15,7 +15,7 @@ app.controller('NationsController', ['$http', function($http) {
     
     var _this = this;
 
-    $http.get('js/nations.json')
+    $http.get('js/nations-table.json')
         .success(function(data) {
             console.log(data);
             console.log(this);

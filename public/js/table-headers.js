@@ -20,4 +20,13 @@ $(document).ready(function(){
          $('#appendix-pop-growth').toggle(200);
          $('#rankings-intro-section').toggle(200);
             });
+   $("#migration-info").mouseover(function(){
+         $('#appendix-migration').toggle(200);
+         $('#rankings-intro-section').toggle(200);
+            });
+ 
+  $("#migration-info").mouseout(function(){
+         $('#appendix-migration').toggle(200);
+         $('#rankings-intro-section').toggle(200);
+            });
 });

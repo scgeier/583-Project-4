@@ -42,7 +42,7 @@
 #rankings-header{
   margin-left:5%;
   padding-right:10%;
-  height:20%;
+  height:25%;
 }
 
 
@@ -60,6 +60,6 @@
   margin-left:5%;
 }
 
-#appendix-population, #appendix-pop-growth {
+#appendix-population, #appendix-pop-growth, #appendix-migration {
   display:none;
 }
