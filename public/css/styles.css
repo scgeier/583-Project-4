@@ -31,7 +31,7 @@
   display:inline-block;
 }
 
-#chart-description{
+.chart-description{
   padding-right:5%;
 }
 
@@ -62,4 +62,15 @@
 
 #appendix-population, #appendix-pop-growth, #appendix-migration, #appendix-infant, #appendix-life, #appendix-obesity, #appendix-GDP, #appendix-unemployment, #appendix-budget, #appendix-debt, #appendix-education, #appendix-military, #appendix-area, #appendix-fossil, #appendix-airports, #appendix-internet {
   display:none;
+}
+
+
+
+.map{
+ float:left;
+ padding-right:10px;
+}
+
+.summary{
+  margin:2%;
 }

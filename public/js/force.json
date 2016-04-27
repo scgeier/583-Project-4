@@ -1,38 +1,302 @@
 {
   "nodes":[
-    {"name":"Australia","group":1, "perCapitaGdp": 46600, "color":"#2929a3"},
-    {"name":"China", "group":2,"perCapitaGdp": 12900, "color":"#999999"},
-    {"name":"Denmark","group":3, "perCapitaGdp": 44300, "color":"#cc2900"},
-    {"name":"France","group":4, "perCapitaGdp": 40500, "color":"#bf4080"},
-    {"name":"Netherlands","group":5, "perCapitaGdp": 47400, "color":"orange"},
-    {"name":"New Zealand","group":6, "perCapitaGdp": 35000, "color":"#2929a3"},
-    {"name":"Norway","group":7, "perCapitaGdp": 65900, "color":"#336699"},
-    {"name":"Great Britain","group":8, "perCapitaGdp": 37700, "color":"#2929a3"},
-    {"name":"United States","group":9, "perCapitaGdp": 54800, "color":"#2929a3"},
-    {"name":"Ashmore and Cartier Islands","group":1, "perCapitaGdp": null, "color":"#2929a3"},
-    {"name":"Christmas Island","group":1, "perCapitaGdp": null, "color":"#2929a3"},
-    {"name":"Cocos (Keeling) Islands","group":1, "perCapitaGdp": null, "color":"#2929a3"},
-    {"name":"Coral Sea Islands","group":1, "perCapitaGdp": null, "color":"#2929a3"},
-    {"name":"Heard Island and McDonald Islands","group":1, "perCapitaGdp": null, "color":"#2929a3"},
-    {"name":"Norfolk Island","group":1, "perCapitaGdp": null, "color":"#2929a3"},
-    {"name":"Hong Kong","group":2, "perCapitaGdp": 55200, "color":"#999999"},
-    {"name":"Macau","group":2, "perCapitaGdp": 88700, "color":"#999999"},
-    {"name":"Faroe Islands","group":3, "perCapitaGdp": 55400, "color":"#cc2900"},
-    {"name":"Greenland","group":3, "perCapitaGdp": 38400, "color":"#cc2900"},
-    {"name":"Clipperton Island","group":4, "perCapitaGdp": null, "color":"#bf4080"},
-    {"name":"French Polynesia","group":4, "perCapitaGdp": 40400, "color":"#bf4080"},
-    {"name":"French Southern and Antarctic Lands","group":4, "perCapitaGdp": null, "color":"#bf4080"},
-    {"name":"New Caledonia","group":4, "perCapitaGdp": 38800, "color":"#bf4080"},
-    {"name":"Saint Barthelemy","group":4, "perCapitaGdp": null, "color":"#bf4080"},
-    {"name":"Saint Martin","group":4, "perCapitaGdp": 19300, "color":"#bf4080"},
-    {"name":"Saint Pierre and Miquelon","group":4, "perCapitaGdp": 34900, "color":"#bf4080"},
-    {"name":"Wallis and Futuna","group":4, "perCapitaGdp": 3800, "color":"#bf4080"},
-    {"name":"Aruba","group":5, "perCapitaGdp": 25300, "color":"orange"},
-    {"name":"Curacao","group":5, "perCapitaGdp": 15000, "color":"orange"},
-    {"name":"Sint Maarten","group":5, "perCapitaGdp": 66800, "color":"orange"},
-    {"name":"Cook Islands","group":6, "perCapitaGdp": 9100, "color":"#2929a3"},
-    {"name":"Niue","group":6, "perCapitaGdp": 5800, "color":"#2929a3"},
-    {"name":"Tokelau","group":6, "perCapitaGdp": 1000, "color":"#2929a3"},
+    {
+      "name":"Australia",
+      "group":1,
+      "perCapitaGdp": 46600,
+      "color":"#2929a3",
+      "map":"../img/australia-map.png",
+      "governor":"N/A",
+      "info":"Prehistoric settlers arrived on the continent from Southeast Asia at least 40,000 years before the first Europeans began exploration in the 17th century. No formal territorial claims were made until 1770, when Capt. James COOK took possession of the east coast in the name of Great Britain (all of Australia was claimed as British territory in 1829 with the creation of the colony of Western Australia). In recent decades, Australia has become an internationally competitive, advanced market economy due in large part to economic reforms adopted in the 1980s and its location in one of the fastest growing regions of the world economy. Long-term concerns include an aging population, pressure on infrastructure, and environmental issues such as floods, droughts, and bushfires. Australia is the driest inhabited continent on earth, making it particularly vulnerable to the challenges of climate change. Australia is home to 10 per cent of the world's biodiversity, and a great number of its flora and fauna exist nowhere else in the world."
+    },
+    {
+      "name":"China",
+      "group":2,
+      "perCapitaGdp": 12900,
+      "color":"#999999",
+      "map":"../img/china-map.png",
+      "governor":"N/A",
+      "info":"For centuries China stood as a leading civilization, outpacing the rest of the world in the arts and sciences, but in the 19th and early 20th centuries, the country was beset by civil unrest, major famines, military defeats, and foreign occupation. After World War II, the communists under MAO Zedong established an autocratic socialist system that, while ensuring China's sovereignty, imposed strict controls over everyday life and cost the lives of tens of millions of people. After 1978, MAO's successor DENG Xiaoping and other leaders focused on market-oriented economic development and by 2000 output had quadrupled. For much of the population, living standards have improved dramatically and the room for personal choice has expanded, yet political controls remain tight. Since the early 1990s, China has increased its global outreach and participation in international organizations."
+      },
+    {
+      "name":"Denmark",
+     "group":3,
+     "perCapitaGdp": 44300,
+     "color":"#cc2900",
+     "map":"../img/denmark-map.png",
+     "governor":"N/A",
+      "info":"Once the seat of Viking raiders and later a major north European power, Denmark has evolved into a modern, prosperous nation that is participating in the general political and economic integration of Europe. It joined NATO in 1949 and the EEC (now the EU) in 1973. However, the country has opted out of certain elements of the European Union's Maastricht Treaty, including the European Economic and Monetary Union (EMU), European defense cooperation, and issues concerning certain justice and home affairs."
+     },
+    {
+      "name":"France",
+      "group":4,
+      "perCapitaGdp": 40500,
+      "color":"#bf4080",
+      "map":"../img/france-map.png",
+      "governor":"N/A",
+      "info":"France today is one of the most modern countries in the world and is a leader among European nations. It plays an influential global role as a permanent member of the United Nations Security Council, NATO, the G-8, the G-20, the EU and other multilateral organizations. France rejoined NATO's integrated military command structure in 2009, reversing DE GAULLE's 1966 decision to withdraw French forces from NATO. Since 1958, it has constructed a hybrid presidential-parliamentary governing system resistant to the instabilities experienced in earlier, more purely parliamentary administrations. In recent decades, its reconciliation and cooperation with Germany have proved central to the economic integration of Europe, including the introduction of a common currency, the euro, in January 1999. In the early 21st century, five French overseas entities - French Guiana, Guadeloupe, Martinique, Mayotte, and Reunion - became French regions and were made part of France proper."
+      },
+    {
+      "name":"Netherlands",
+      "group":5,
+      "perCapitaGdp": 47400,
+      "color":"orange",
+      "map":"../img/netherlands-map.png",
+      "governor":"N/A",
+      "info":"The Dutch United Provinces declared their independence from Spain in 1579; during the 17th century, they became a leading seafaring and commercial power, with settlements and colonies around the world. After a 20-year French occupation, a Kingdom of the Netherlands was formed in 1815. In 1830, Belgium seceded and formed a separate kingdom. The Netherlands remained neutral in World War I, but suffered German invasion and occupation in World War II. A modern, industrialized nation, the Netherlands is also a large exporter of agricultural products. The country was a founding member of NATO and the EEC (now the EU) and participated in the introduction of the euro in 1999. In October 2010, the former Netherlands Antilles was dissolved and the three smallest islands - Bonaire, Sint Eustatius, and Saba - became special municipalities in the Netherlands administrative structure. The larger islands of Sint Maarten and Curacao joined the Netherlands and Aruba as constituent countries forming the Kingdom of the Netherlands."
+      },
+    {
+      "name":"New Zealand",
+      "group":6,
+      "perCapitaGdp": 35000,
+      "color":"#2929a3",
+      "map":"../img/new-zealand-map.png",
+      "governor":"N/A",
+      "info":"The Polynesian Maori reached New Zealand in about A.D. 800. In 1840, their chieftains entered into a compact with Britain, the Treaty of Waitangi, in which they ceded sovereignty to Queen Victoria while retaining territorial rights. That same year, the British began the first organized colonial settlement. A series of land wars between 1843 and 1872 ended with the defeat of the native peoples. The British colony of New Zealand became an independent dominion in 1907 and supported the UK militarily in both world wars. New Zealand's full participation in a number of defense alliances lapsed by the 1980s. In recent years, the government has sought to address longstanding Maori grievances. New Zealand assumed a nonpermanent seat on the UN Security Council for the 2015-16 term."
+      },
+    {
+      "name":"Norway",
+      "group":7,
+      "perCapitaGdp": 65900,
+      "color":"#336699",
+      "map":"../img/norway-map.png",
+      "governor":"N/A",
+      "info":"Two centuries of Viking raids into Europe tapered off following the adoption of Christianity by King Olav TRYGGVASON in 994; conversion of the Norwegian kingdom occurred over the next several decades. In 1397, Norway was absorbed into a union with Denmark that lasted more than four centuries. In 1814, Norwegians resisted the cession of their country to Sweden and adopted a new constitution. Sweden then invaded Norway but agreed to let Norway keep its constitution in return for accepting the union under a Swedish king. Rising nationalism throughout the 19th century led to a 1905 referendum granting Norway independence. Although Norway remained neutral in World War I, it suffered heavy losses to its shipping. Norway proclaimed its neutrality at the outset of World War II, but was nonetheless occupied for five years by Nazi Germany (1940-45). In 1949, Norway abandoned neutrality and became a member of NATO. Discovery of oil and gas in adjacent waters in the late 1960s boosted Norway's economic fortunes. In referenda held in 1972 and 1994, Norway rejected joining the EU. Key domestic issues include immigration and integration of ethnic minorities, maintaining the country's extensive social safety net with an aging population, and preserving economic competitiveness."
+      },
+    {
+      "name":"United Kingdom",
+      "group":8,
+      "perCapitaGdp": 37700,
+      "color":"#2929a3",
+      "map":"../img/britain-map.png",
+      "governor":"N/A",
+      "info":"The United Kingdom has historically played a leading role in developing parliamentary democracy and in advancing literature and science. At its zenith in the 19th century, the British Empire stretched over one-fourth of the earth's surface. The first half of the 20th century saw the UK's strength seriously depleted in two world wars and the Irish Republic's withdrawal from the union. The second half witnessed the dismantling of the Empire and the UK rebuilding itself into a modern and prosperous European nation. As one of five permanent members of the UN Security Council and a founding member of NATO and the Commonwealth, the UK pursues a global approach to foreign policy. The UK is also an active member of the EU, although it chose to remain outside the Economic and Monetary Union. The Scottish Parliament, the National Assembly for Wales, and the Northern Ireland Assembly were established in 1999. The latter was suspended until May 2007 due to wrangling over the peace process, but devolution was fully completed in March 2010."
+      },
+    {
+      "name":"United States",
+      "group":9,
+      "perCapitaGdp": 54800,
+      "color":"#2929a3",
+      "map":"../img/usa.png",
+      "governor":"N/A",
+      "info":"Britain's American colonies broke with the mother country in 1776 and were recognized as the new nation of the United States of America following the Treaty of Paris in 1783. During the 19th and 20th centuries, 37 new states were added to the original 13 as the nation expanded across the North American continent and acquired a number of overseas possessions. The two most traumatic experiences in the nation's history were the Civil War (1861-65), in which a northern Union of states defeated a secessionist Confederacy of 11 southern slave states, and the Great Depression of the 1930s, an economic downturn during which about a quarter of the labor force lost its jobs. Buoyed by victories in World Wars I and II and the end of the Cold War in 1991, the US remains the world's most powerful nation state. Since the end of World War II, the economy has achieved relatively steady growth, low unemployment and inflation, and rapid advances in technology."
+      },
+    {
+      "name":"Ashmore and Cartier Islands",
+      "group":1,
+      "perCapitaGdp": null,
+      "color":"#2929a3",
+      "map":"../img/ashmore.png",
+      "governor":"Australia",
+      "info":"These uninhabited islands came under Australian authority in 1931; formal administration began two years later. Ashmore Reef supports a rich and diverse avian and marine habitat; in 1983, it became a National Nature Reserve. Cartier Island, a former bombing range, became a marine reserve in 2000."
+      },
+    {
+      "name":"Christmas Island",
+      "group":1,
+      "perCapitaGdp": null,
+      "color":"#2929a3",
+      "map":"../img/christmas.png",
+      "governor":"Australia",
+      "info":"Named in 1643 for the day of its discovery, the island was annexed and settlement began by the UK in 1888 with the discovery of the island's phosphate deposits. Following the Second World War, Christmas Island came under the jurisdiction of the new British Colony of Singapore. The island existed as a separate Crown colony from 1 January 1958 to 1 October 1958 when its transfer to Australian jurisdiction was finalized. That date is still celebrated on the first Monday in October as Territory Day. Almost two-thirds of the island has been declared a national park."
+      },
+    {
+      "name":"Cocos (Keeling) Islands",
+      "group":1,
+      "perCapitaGdp": null,
+      "color":"#2929a3",
+      "map":"../img/cocos.png",
+      "governor":"Australia",
+      "info":"There are 27 coral islands in the group. Captain William KEELING discovered the islands in 1609, but they remained uninhabited until the 19th century. From the 1820s to 1978, members of the CLUNIE-ROSS family controlled the islands and the copra produced from local coconuts. Annexed by the UK in 1857, the Cocos Islands were transferred to the Australian Government in 1955. Apart from North Keeling Island, which lies 30 kilometers north of the main group, the islands form a horseshoe-shaped atoll surrounding a lagoon. North Keeling Island was declared a national park in 1995 and is administered by Parks Australia. The population on the two inhabited islands generally is split between the ethnic Europeans on West Island and the ethnic Malays on Home Island."
+      },
+    {
+      "name":"Coral Sea Islands",
+      "group":1,
+      "perCapitaGdp": null,
+      "color":"#2929a3",
+      "map":"../img/cocos.png",
+      "governor":"Australia",
+      "info":"Scattered over more than three-quarters of a million square kilometers of ocean, the Coral Sea Islands were declared a territory of Australia in 1969. They are uninhabited except for a small meteorological staff on the Willis Islets. Automated weather stations, beacons, and a lighthouse occupy many other islands and reefs. The Coral Sea Islands Act 1969 was amended in 1997 to extend the boundaries of the Coral Sea Islands Territory around Elizabeth and Middleton Reefs."
+      },
+    {
+      "name":"Heard Island and McDonald Islands",
+      "group":1,
+      "perCapitaGdp": null,
+      "color":"#2929a3",
+      "map":"../img/heard.png",
+      "governor":"Australia",
+      "info":"The UK transferred these uninhabited, barren, sub-Antarctic islands to Australia in 1947. Populated by large numbers of seal and bird species, the islands have been designated a nature preserve."
+      },
+    {
+      "name":"Norfolk Island",
+      "group":1,
+      "perCapitaGdp": null,
+      "color":"#2929a3",
+      "map":"../img/norfolk.png",
+      "governor":"Australia",
+      "info":"Two British attempts at establishing the island as a penal colony (1788-1814 and 1825-55) were ultimately abandoned. In 1856, the island was resettled by Pitcairn Islanders, descendants of the Bounty mutineers and their Tahitian companions."
+      },
+    {
+      "name":"Hong Kong",
+      "group":2,
+      "perCapitaGdp": 55200,
+      "color":"#999999",
+      "map":"../img/hongkong.png",
+      "governor":"China",
+      "info":"Occupied by the UK in 1841, Hong Kong was formally ceded by China the following year; various adjacent lands were added later in the 19th century. Pursuant to an agreement signed by China and the UK on 19 December 1984, Hong Kong became the Hong Kong Special Administrative Region of the People's Republic of China on 1 July 1997. In this agreement, China promised that, under its 'one country, two systems' formula, China's socialist economic system would not be imposed on Hong Kong and that Hong Kong would enjoy a 'high degree of autonomy' in all matters except foreign and defense affairs for the subsequent 50 years."
+      },
+    {
+      "name":"Macau",
+      "group":2,
+      "perCapitaGdp": 88700,
+      "color":"#999999",
+      "map":"../img/macau.png",
+      "governor":"China",
+      "info":"Colonized by the Portuguese in the 16th century, Macau was the first European settlement in the Far East. Pursuant to an agreement signed by China and Portugal on 13 April 1987, Macau became the Macau Special Administrative Region of the People's Republic of China on 20 December 1999. In this agreement, China promised that, under its 'one country, two systems' formula, China's political and economic system would not be imposed on Macau, and that Macau would enjoy a 'high degree of autonomy' in all matters except foreign affairs and defense for the subsequent 50 years."
+      },
+    {
+      "name":"Faroe Islands",
+      "group":3,
+      "perCapitaGdp": 55400,
+      "color":"#cc2900",
+      "map":"../img/faroe.png",
+      "governor":"Denmark",
+      "info":"The population of the Faroe Islands is largely descended from Viking settlers who arrived in the 9th century. The islands have been connected politically to Denmark since the 14th century. A high degree of self-government was granted the Faroese in 1948, who have autonomy over most internal affairs while Denmark is responsible for justice, defense, and foreign affairs. The Faroe Islands are not part of the European Union."
+      },
+    {
+      "name":"Greenland",
+      "group":3,
+      "perCapitaGdp": 38400,
+      "color":"#cc2900",
+      "map":"../img/greenland.png",
+      "governor":"Denmark",
+      "info":"Greenland, the world's largest island, is about 81% ice-capped. Vikings reached the island in the 10th century from Iceland; Danish colonization began in the 18th century, and Greenland became an integral part of the Danish Realm in 1953. It joined the European Community (now the EU) with Denmark in 1973 but withdrew in 1985 over a dispute centered on stringent fishing quotas. Greenland remains a member of the Overseas Countries and Territories Association of the EU. Greenland was granted self-government in 1979 by the Danish parliament; the law went into effect the following year. Greenland voted in favor of increased self-rule in November 2008 and acquired greater responsibility for internal affairs when the Act on Greenland Self-Government was signed into law in June 2009. Denmark, however, continues to exercise control over several policy areas on behalf of Greenland, including foreign affairs, security, and financial policy in consultation with Greenland's Self-Rule Government."
+      },
+    {
+      "name":"Clipperton Island",
+      "group":4,
+      "perCapitaGdp": null,
+      "color":"#bf4080",
+       "map":"../img/clipperton.png",
+      "governor":"France",
+      "info":"This isolated atoll was named for John CLIPPERTON, a pirate who was rumored to have made it his hideout early in the 18th century. Annexed by France in 1855 and claimed by the United States, it was seized by Mexico in 1897. Arbitration eventually awarded the island to France in 1931, which took possession in 1935."
+      },
+    {
+      "name":"French Polynesia",
+      "group":4,
+      "perCapitaGdp": 40400,
+      "color":"#bf4080",
+       "map":"../img/polynesia.png",
+      "governor":"France",
+      "info":"The French annexed various Polynesian island groups during the 19th century. In September 1995, France stirred up widespread protests by resuming nuclear testing on the Mururoa Atoll after a three-year moratorium. The tests were halted in January 1996. In recent years, French Polynesia's autonomy has been considerably expanded."
+      },
+    {
+      "name":"French Southern and Antarctic Lands",
+      "group":4,
+      "perCapitaGdp": null,
+      "color":"#bf4080",
+       "map":"../img/southern.png",
+      "governor":"France",
+      "info":"In February 2007, the Iles Eparses became an integral part of the French Southern and Antarctic Lands (TAAF). The Southern Lands are now divided into five administrative districts, two of which are archipelagos, Iles Crozet and Iles Kerguelen; the third is a district composed of two volcanic islands, Ile Saint-Paul and Ile Amsterdam; the fourth, Iles Eparses, consists of five scattered tropical islands around Madagascar. They contain no permanent inhabitants and are visited only by researchers studying the native fauna, scientists at the various scientific stations, fishermen, and military personnel. The fifth district is the Antarctic portion, which consists of 'Adelie Land,' a thin slice of the Antarctic continent discovered and claimed by the French in 1840."
+      },
+    {
+      "name":"New Caledonia",
+      "group":4,
+      "perCapitaGdp": 38800,
+      "color":"#bf4080",
+      "map":"../img/caledonia.png",
+      "governor":"France",
+      "info":"Settled by both Britain and France during the first half of the 19th century, the island became a French possession in 1853. It served as a penal colony for four decades after 1864. Agitation for independence during the 1980s and early 1990s ended in the 1998 Noumea Accord, which over a period of 15 to 20 years will transfer an increasing amount of governing responsibility from France to New Caledonia. The agreement also commits France to conduct a referendum between 2014 and 2018 to decide whether New Caledonia should assume full sovereignty and independence."
+      },
+    {
+      "name":"Saint Barthelemy",
+      "group":4,
+      "perCapitaGdp": null,
+      "color":"#bf4080",
+      "map":"../img/barthelemy.png",
+      "governor":"France",
+      "info":"Discovered in 1493 by Christopher COLUMBUS who named it for his brother Bartolomeo, Saint Barthelemy was first settled by the French in 1648. In 1784, the French sold the island to Sweden, which renamed the largest town Gustavia, after the Swedish King GUSTAV III, and made it a free port; the island prospered as a trade and supply center during the colonial wars of the 18th century. France repurchased the island in 1877 and took control the following year. It was placed under the administration of Guadeloupe. Saint Barthelemy retained its free port status along with various Swedish appellations such as Swedish street and town names, and the three-crown symbol on the coat of arms. In 2003 the islanders voted to secede from Guadeloupe, and in 2007 the island became a French overseas collectivity. In 2012, it became an overseas territory of the EU, allowing it to exert local control over the permanent and temporary immigration of foreign workers including non-French European citizens."
+      },
+    {
+      "name":"Saint Martin",
+      "group":4,
+      "perCapitaGdp": 19300,
+      "color":"#bf4080",
+      "map":"../img/saint-martin.png",
+      "governor":"France",
+      "info":"Although sighted by Christopher COLUMBUS in 1493 and claimed for Spain, it was the Dutch who occupied the island in 1631 and set about exploiting its salt deposits. The Spanish retook the island in 1633, but continued to be harassed by the Dutch. The Spanish finally relinquished Saint Martin to the French and Dutch, who divided it between themselves in 1648. Friction between the two sides caused the border to frequently fluctuate over the next two centuries, with the French eventually holding the greater portion of the island (about 57%). The cultivation of sugar cane introduced African slavery to the island in the late 18th century; the practice was not abolished until 1848. The island became a free port in 1939; the tourism industry was dramatically expanded during the 1970s and 1980s. In 2003, the populace of Saint Martin voted to secede from Guadeloupe and in 2007, the northern portion of the island became a French overseas collectivity. In 2010, the southern Dutch portion of the island became the independent nation of Sint Maarten within the Kingdom of the Netherlands."
+      },
+    {
+      "name":"Saint Pierre and Miquelon",
+      "group":4,
+      "perCapitaGdp": 34900,
+      "color":"#bf4080",
+       "map":"../img/pierre.png",
+      "governor":"France",
+      "info":"First settled by the French in the early 17th century, the islands represent the sole remaining vestige of France's once vast North American possessions."
+      },
+    {
+      "name":"Wallis and Futuna",
+      "group":4,
+      "perCapitaGdp": 3800,
+      "color":"#bf4080",
+      "map":"../img/wallis.png",
+      "governor":"France",
+      "info":"The Futuna island group was discovered by the Dutch in 1616 and Wallis by the British in 1767, but it was the French who declared a protectorate over the islands in 1842, and took official control of them between 1886 and 1888. Notably, Wallis and Futuna was the only French colony to side with the Vichy regime during World War II, a phase that ended in May of 1942 with the arrival of 2,000 American troops. In 1959, the inhabitants of the islands voted to become a French overseas territory and officially assumed this status in July 1961."
+      },
+    {
+      "name":"Aruba",
+      "group":5,
+      "perCapitaGdp": 25300,
+      "color":"orange",
+      "map":"../img/aruba.png",
+      "governor":"Netherlands",
+      "info":"Discovered and claimed for Spain in 1499, Aruba was acquired by the Dutch in 1636. The island's economy has been dominated by three main industries. A 19th century gold rush was followed by prosperity brought on by the opening in 1924 of an oil refinery. The last decades of the 20th century saw a boom in the tourism industry. Aruba seceded from the Netherlands Antilles in 1986 and became a separate, autonomous member of the Kingdom of the Netherlands. Movement toward full independence was halted at Aruba's request in 1990."
+      },
+    {
+      "name":"Curacao",
+      "group":5,
+      "perCapitaGdp": 15000,
+      "color":"orange",
+      "map":"../img/curacao.png",
+      "governor":"Netherlands",
+      "info":"Originally settled by Arawak Indians, Curacao was seized by the Dutch in 1634 along with the neighboring island of Bonaire. Once the center of the Caribbean slave trade, Curacao was hard hit economically by the abolition of slavery in 1863. Its prosperity (and that of neighboring Aruba) was restored in the early 20th century with the construction of the Isla Refineria to service the newly discovered Venezuelan oil fields. In 1954, Curacao and several other Dutch Caribbean possessions were reorganized as the Netherlands Antilles, part of the Kingdom of the Netherlands. In referenda in 2005 and 2009, the citizens of Curacao voted to become a self-governing country within the Kingdom of the Netherlands. The change in status became effective in October 2010 with the dissolution of the Netherlands Antilles."
+      },
+    {
+      "name":"Sint Maarten",
+      "group":5,
+      "perCapitaGdp": 66800,
+      "color":"orange",
+      "map":"../img/sint-maarten.png",
+      "governor":"Netherlands",
+      "info":"Although sighted by Christopher COLUMBUS in 1493 and claimed for Spain, it was the Dutch who occupied the island in 1631 and began exploiting its salt deposits. The Spanish retook the island in 1633, but continued to be harassed by the Dutch. The Spanish finally relinquished the island of Saint Martin to the French and Dutch, who divided it amongst themselves in 1648. The establishment of cotton, tobacco, and sugar plantations dramatically expanded African slavery on the island in the 18th and 19th centuries; the practice was not abolished in the Dutch half until 1863. The island's economy declined until 1939 when it became a free port; the tourism industry was dramatically expanded beginning in the 1950s. In 1954, Sint Maarten and several other Dutch Caribbean possessions became part of the Kingdom of the Netherlands as the Netherlands Antilles. In a 2000 referendum, the citizens of Sint Maarten voted to become a self-governing country within the Kingdom of the Netherlands. The change in status became effective in October of 2010 with the dissolution of the Netherlands Antilles."
+      },
+    {
+      "name":"Cook Islands",
+      "group":6,
+      "perCapitaGdp": 9100,
+      "color":"#2929a3",
+      "map":"../img/cook.png",
+      "governor":"New Zealand",
+      "info":"Named after Captain Cook, who sighted them in 1770, the islands became a British protectorate in 1888. By 1900, administrative control was transferred to New Zealand; in 1965, residents chose self-government in free association with New Zealand. The emigration of skilled workers to New Zealand, government deficits, and limited natural resources are of continuing concern."
+      },
+    {
+      "name":"Niue",
+      "group":6,
+      "perCapitaGdp": 5800,
+      "color":"#2929a3",
+      "map":"../img/niue.png",
+      "governor":"New Zealand",
+      "info":"Niue's remoteness, as well as cultural and linguistic differences between its Polynesian inhabitants and those of the adjacent Cook Islands, has caused it to be separately administered by New Zealand. The population of the island continues to drop (from a peak of 5,200 in 1966 to an estimated 1,190 in 2014) with substantial emigration to New Zealand 2,400 km to the southwest."
+      },
+    {
+      "name":"Tokelau",
+      "group":6,
+      "perCapitaGdp": 1000,
+      "color":"#2929a3",
+      "map":"../img/tokelau.png",
+      "governor":"New Zealand",
+      "info":"Originally settled by Polynesian emigrants from surrounding island groups, the Tokelau Islands were made a British protectorate in 1889. They were transferred to New Zealand administration in 1925. Referenda held in 2006 and 2007 to change the status of the islands from that of a New Zealand territory to one of free association with New Zealand did not meet the needed threshold for approval."
+      },
     {"name":"Bouvet Island","group":7, "perCapitaGdp": null, "color":"#336699"},
     {"name":"Jan Mayan","group":7, "perCapitaGdp": null, "color":"#336699"},
     {"name":"Svalbard","group":7, "perCapitaGdp": null, "color":"#336699"},

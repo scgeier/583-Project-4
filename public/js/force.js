@@ -6,7 +6,7 @@ var margin = 200;
 //var color = d3.scale.category20();
 
 var force = d3.layout.force()
-    .charge(-150)
+    .charge(-140)
     .linkDistance(100)
     .size([(width - margin), (height - (margin / 2))]);
 
@@ -42,21 +42,26 @@ d3.json("js/force.json", function(error, graph) {
       .attr("r", function(d){ return setRadius(d);})
       .style("fill", function(d) { return d.color; })
       .call(force.drag)
-      .on("mouseenter", function(d){         
+      .on("mouseenter", function(d){
+        d3.select("#territories-intro")
+          .style("opacity", 0)
+          
          tooltip
           .attr("class", "summary")
           .style("opacity", 1)
-          .style("left", "70%")
-          .style("bottom", "45%")
+          .style("left", "55%")
+          .style("bottom", "5%")
   
-        tooltip.html("<h3>" + d.name + "</h3>"
-                     + "Per capita GDP: " + gdpNull(d))
+        tooltip.html(
+            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Governed by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + d.info)
       
         console.log(d.name);
       })
       
     //Remove nation info on mouseleave//
       .on("mouseleave", function(d){
+        d3.select("#territories-intro")
+          .style("opacity", 1)
          tooltip.transition().style("opacity", 0)
          console.log("mouseout");
       });
