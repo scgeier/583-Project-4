@@ -53,7 +53,7 @@ d3.json("js/force.json", function(error, graph) {
           .style("bottom", "5%")
   
         tooltip.html(
-            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Governed by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + d.info)
+            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Controlled by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + d.info)
       
         console.log(d.name);
       })
