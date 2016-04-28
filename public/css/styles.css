@@ -35,6 +35,10 @@
   padding-right:5%;
 }
 
+#territories-intro{
+  font-size:1.1em;
+}
+
 #scatterplot-dropdown{
   margin-top:5%;
 }
@@ -63,7 +67,6 @@
 #appendix-population, #appendix-pop-growth, #appendix-migration, #appendix-infant, #appendix-life, #appendix-obesity, #appendix-GDP, #appendix-unemployment, #appendix-budget, #appendix-debt, #appendix-education, #appendix-military, #appendix-area, #appendix-fossil, #appendix-airports, #appendix-internet {
   display:none;
 }
-
 
 
 .map{

@@ -1,6 +1,6 @@
 <html>
     <head>
-          <title>583 Final Project</title>
+          <title>CIA Data Vis</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -18,17 +18,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://www.cia.gov/library/publications/the-world-factbook/" target="_blank">CIA World Factbook</a>
+      <a class="navbar-brand" href="#">The CIA Data Vis Project</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Scatterplot</a></li>
-        <li><a href="/rankings">Rankings by Category</a></li>
         <li><a href="/territories">Territories</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"></a>About</a></li>
-      </ul>
+        <li><a href="/rankings">Rankings by Category</a></li>
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sources<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.cia.gov/library/publications/the-world-factbook/" target="_blank">CIA World Factbook</a></li>
+            <li><a href="https://github.com/factbook/factbook.csv" target="_blank">Open World Database (csv data)</a></li>
+            <li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia Creative Commons (maps)</a></li> 
+          </ul>
+        </li>
+     </ul>
     </div>
   </div>
 </nav>
@@ -43,7 +48,7 @@
 
 <div class="col-md-4 col-xs-12 chart-description">
 <div id="scatterplot-intro">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<p>The <a href="https://www.cia.gov/library/publications/the-world-factbook/" target="_blank">CIA World Factbook</a> was first created as a classified document in 1962. It became available to the public in 1971, and it has since become one of the leading sources of statistics on each of the world's 195 sovereign nations and 59 dependent territories. This website is a visualization of that data. Use the scatterplot diagram on this page to explore correlations between different statistical categories (there are 105 possible combinations). Follow the Territories link to learn which nations own the richest dependencies. Or go to the Rankings section to find all of the data in a single, sortable table, with details on how the CIA crunched the numbers.</p>
 </div>
 
 <div id="scatterplot-dropdown">
