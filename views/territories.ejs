@@ -25,10 +25,15 @@
       <ul class="nav navbar-nav">
         <li><a href="/">Scatterplot</a></li>
         <li class="active"><a href="/territories">Territories</a></li>
-          <li><a href="/rankings">Rankings</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"></a>About</a></li>
+        <li><a href="/rankings">Rankings</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sources<span class="caret"></span></a>
+           <ul class="dropdown-menu">
+            <li><a href="https://www.cia.gov/library/publications/the-world-factbook/" target="_blank">CIA World Factbook</a></li>
+            <li><a href="https://github.com/factbook/factbook.csv" target="_blank">Open World Database (csv data)</a></li>
+            <li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia Creative Commons (maps)</a></li> 
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
@@ -38,10 +43,10 @@
 <container>
    
 <div class="row">
-   <div class="col-xs-12 col-md-8">
+   <div class="col-xs-12 col-md-6">
   <div id="force"></div>  
 </div>
- <div class="col-xs-12 col-md-4 chart-description">
+ <div class="col-xs-12 col-md-6 chart-description">
   <div id="territories-intro">
   <h2>The Footprint of the British Empire</h2>
   <p>There are currently 59 dependent territories in the world, controlled by just nine countries. And three of those nine countries were, in turn, once ruled by another nation, the United Kingdom. The size of each circle in this chart is a function of its per capita GDP; in short, the wealthier the citizens, the larger the bubble. Hover over the graphic to learn more, and drag the circles as needed.</p>

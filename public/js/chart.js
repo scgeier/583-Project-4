@@ -5,9 +5,9 @@ var selectedXAxis = 'Obesity Rate';
 var selectedYAxis = 'Health Expenditures';
 var globalData = null;
 
-var margin = {top: 20, right: 20, bottom: 40, left: 75},
-    width = 860 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 10, right: 70, bottom: 40, left: 65},
+    width = 654 - margin.left - margin.right,
+    height = 380 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -25,9 +25,16 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left");
 
-var svg = d3.select("#chart").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+var svg = d3.select("#chart")
+    .append("div")
+    .classed("svg-container", true) //container class to make it responsive
+    .append("svg")
+//responsive SVG needs these 2 attributes and no width and height attr
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 600 500")
+    .attr("class", "scatterplot")
+    //class to make it responsive
+    .classed("svg-content-responsive", true)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -54,12 +61,13 @@ function init(){
 svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
+      .style("font-size", 10)
       .call(xAxis)
     .append("text")
       .attr("class", "x label")
-      .attr("x", width)
+      .attr("x", width - 10)
       .attr("y", 37)
-      .style("font-size", 15)
+      .style("font-size", 10)
       .style("font-weight", 200)
       .style("text-anchor", "end")
       .text(function(d){ return setXAxisText();});
@@ -67,13 +75,14 @@ svg.append("g")
 //Make the Y axis, with the label's content AND position a function of the data
   svg.append("g")
       .attr("class", "y axis")
+      .style("font-size", 10)
       .call(yAxis)
     .append("text")
       .attr("class", "y label")
       .attr("transform", "rotate(-90)")
       .attr("y", function(d){ return labelPosition();})
-      .attr("dy", ".7em")
-      .style("font-size", 15)
+      .attr("dy", ".4em")
+      .style("font-size", 10)
       .style("font-weight", 200)
       .style("text-anchor", "end")
       .text(function(d){ return setYAxisText();});
@@ -86,9 +95,7 @@ var dots = svg.selectAll(".dot")
       .attr("cx", 150)
       .attr("cy", 50)
       .style("fill", function(d) { return color(d.Population); })
-      .on("mouseenter", function(d){
-        //if (d.background !== undefined) {//
-                  
+      .on("mouseenter", function(d){        
          tooltip.transition(d)
           .delay(200)
           .attr("class", "summary")
@@ -209,7 +216,7 @@ function hideNulls(d) {
     if ((d[selectedXAxis] == null) || (d[selectedYAxis] == null)){
         return 0;
     }else{
-        return 4;
+        return 3;
     }
 };
 
@@ -322,5 +329,16 @@ var yUnits = function () {
 };//close init();
 
 init();
-});//close document ready function
 
+$("#mobile-about-button").click(function() {
+         $("#scatterplot-intro").fadeToggle("medium", "linear");
+         $(this).toggle();
+         $("#mobile-close-button").toggle();
+     });
+
+$("#mobile-close-button").click(function() {
+         $("#scatterplot-intro").fadeToggle("medium", "linear");
+         $(this).toggle();
+     });
+
+});//close document ready function

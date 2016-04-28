@@ -1,21 +1,27 @@
-var width = 960,
-    height = 750;
+var width = 720,
+    height = 563;
 
-var margin = 200;
+var margin = 10;
 
 //var color = d3.scale.category20();
 
 var force = d3.layout.force()
-    .charge(-140)
-    .linkDistance(100)
-    .size([(width - margin), (height - (margin / 2))]);
+    .charge(-100)
+    .linkDistance(80)
+    .size([(width - margin), (height - (margin/2))]);
 
-var svg = d3.select("#force").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+var svg = d3.select("#force")
+    .append("div")
+    .classed("svg-container", true) //container class to make it responsive
+    .append("svg")
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 600 500")
+    .attr("class", "force")
+    //class to make it responsive
+    .classed("svg-content-responsive", true);
     
 var tooltip = d3.select("body").append("div")
-                .attr("class", "tooltip")
+                .attr("class", "col-xs-12 tooltip")
                 .style("position", "absolute")
                 .style("opacity", 0);
 
@@ -44,16 +50,21 @@ d3.json("js/force.json", function(error, graph) {
       .call(force.drag)
       .on("mouseenter", function(d){
         d3.select("#territories-intro")
+          .transition()
+          .duration(300)
           .style("opacity", 0)
           
          tooltip
+          .transition()
+          .duration(300)
+          .ease("back")
           .attr("class", "summary")
           .style("opacity", 1)
           .style("left", "55%")
           .style("bottom", "5%")
   
         tooltip.html(
-            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Controlled by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + d.info)
+            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Controlled by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + "<div class='territory-info'>" + d.info + "</div>")
       
         console.log(d.name);
       })
@@ -61,8 +72,14 @@ d3.json("js/force.json", function(error, graph) {
     //Remove nation info on mouseleave//
       .on("mouseleave", function(d){
         d3.select("#territories-intro")
+          .transition()
+          .duration(300)
           .style("opacity", 1)
-         tooltip.transition().style("opacity", 0)
+         tooltip
+          .transition()
+          .duration(300)
+          .ease("back")
+          .style("opacity", 0)
          console.log("mouseout");
       });
 
@@ -101,9 +118,9 @@ d3.json("js/force.json", function(error, graph) {
         
   function setRadius(d) {
         if (d.perCapitaGdp == null) {
-            return 5;
+            return 4;
         }else{
-        return (d.perCapitaGdp / 1800);
+        return (d.perCapitaGdp / 3000);
         }
  };
  
