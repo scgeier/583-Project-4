@@ -88,6 +88,7 @@
 /*THE RAKNINGS TABLE*/
 
 #rankings-header{
+  margin-bottom:2%;
   margin-left:5%;
   padding-right:10%;
   height:26%;
@@ -107,7 +108,7 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 435px) {
-    #rankings-introduction {
+    #rankings-intro-desktop {
       display:none;
     }
 }
@@ -156,6 +157,7 @@ section {
       opacity:0;
     }
 }
+
 
 /*THE 'TERRITORIES' FORCE LAYOUT CHART*/
 
