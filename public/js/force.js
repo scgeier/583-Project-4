@@ -3,28 +3,29 @@ var width = 720,
 
 var margin = 10;
 
-//var color = d3.scale.category20();
-
+//Set up the D3 force layout//
 var force = d3.layout.force()
     .charge(-100)
     .linkDistance(80)
     .size([(width - margin), (height - (margin/2))]);
 
+//Make a responsive SVG canvas for the chart//
 var svg = d3.select("#force")
     .append("div")
-    .classed("svg-container", true) //container class to make it responsive
+    .classed("svg-container", true) 
     .append("svg")
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 500")
     .attr("class", "force")
-    //class to make it responsive
     .classed("svg-content-responsive", true);
-    
+
+//Make a tooltip//
 var tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip")
                 .style("position", "absolute")
                 .style("opacity", 0);
 
+//Call the JSON data//
 d3.json("js/force.json", function(error, graph) {
   if (error) throw error;
 
@@ -33,6 +34,7 @@ d3.json("js/force.json", function(error, graph) {
       .links(graph.links)
       .start();
 
+//Make the links//
   var link = svg.selectAll(".link")
       .data(graph.links)
     .enter().append("line")
@@ -40,7 +42,7 @@ d3.json("js/force.json", function(error, graph) {
       .style("stroke-width", 2)
       .style("stroke-dasharray", function(d){ return d.value; })
 
- 
+//Make the circles, with the radius a function of per capita GDP and colors according to which country owns each territory
   var node = svg.selectAll(".node")
       .data(graph.nodes)
     .enter().append("circle")
@@ -48,6 +50,7 @@ d3.json("js/force.json", function(error, graph) {
       .attr("r", function(d){ return setRadius(d);})
       .style("fill", function(d) { return d.color; })
       .call(force.drag)
+//Make the tooltip appear on mouseovers, and hide the main intro section//
       .on("mouseenter", function(d){
         d3.select("#territories-intro")
           .transition()
@@ -68,7 +71,7 @@ d3.json("js/force.json", function(error, graph) {
         console.log(d.name);
       })
       
-    //Remove nation info on mouseleave//
+//Remove tooltip on mouseout//
       .on("mouseleave", function(d){
         d3.select("#territories-intro")
           .transition()
@@ -82,31 +85,23 @@ d3.json("js/force.json", function(error, graph) {
          console.log("mouseout");
       });
 
-        
+//Add a smaller tooltip with just the country's name over each circle//  
   node.append("title")
       .text(function(d) { return d.name; });
 
+//Allow users to drag the circles, but with some snap back//
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; })
-        //.style("stroke-dasharray", function(d){ return dashedLine(); });
 
     node.attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
         
   });
   
-//
-  function dashedLine(d) {
-    if (d.source == 7) {
-        return [5,5];
-    }else{
-      return "none";
-    }
- };
- 
+//Return "N/A" when the territory's GDP value is null
   function gdpNull(d){
           if (d.perCapitaGdp == null) {
             return "N/A";
@@ -114,7 +109,8 @@ d3.json("js/force.json", function(error, graph) {
             return "$" + d.perCapitaGdp;
           }
         };
-        
+
+//Make the circle radius a function of GDP, and give null values a small set radius, so they aren't completely invisbible//         
   function setRadius(d) {
         if (d.perCapitaGdp == null) {
             return 4;

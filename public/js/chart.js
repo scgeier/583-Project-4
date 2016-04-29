@@ -1,17 +1,22 @@
 $(document).ready(function(){
     console.log("DOM loaded!");
-    
+
+//Set X and Y axis categories for initial page load//
 var selectedXAxis = 'Obesity Rate';
 var selectedYAxis = 'Health Expenditures';
+
+//Initialize a global data variable so the JSON data can be accessed outside of the D3 call//
 var globalData = null;
 
 var margin = {top: 10, right: 70, bottom: 40, left: 65},
     width = 654 - margin.left - margin.right,
     height = 380 - margin.top - margin.bottom;
 
+//Set the X range//
 var x = d3.scale.linear()
     .range([0, width]);
 
+//Set the Y range//
 var y = d3.scale.linear()
     .range([height, 0]);
 
@@ -25,19 +30,19 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left");
 
+//Make a responsive SVG canvas for the chart//
 var svg = d3.select("#chart")
     .append("div")
-    .classed("svg-container", true) //container class to make it responsive
+    .classed("svg-container", true) 
     .append("svg")
-//responsive SVG needs these 2 attributes and no width and height attr
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 600 500")
     .attr("class", "scatterplot")
-    //class to make it responsive
     .classed("svg-content-responsive", true)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+//Make a tooltip//
 var tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip")
                 .style("position", "absolute")
@@ -45,19 +50,18 @@ var tooltip = d3.select("body").append("div")
                 .style("opacity", 0);
   
   
-   
+//Build the initial chart on page load and call the JSON data//
 function init(){
   d3.json("js/nations.json", function(error, data) {
   if (error) throw error;
   
   globalData = data;
 
-
 //Set the X and Y axes using the min amd max values from the user's chosen data set//
   x.domain(d3.extent(data, function(d) { return d[selectedXAxis]; })).nice();
   y.domain(d3.extent(data, function(d) { return d[selectedYAxis]; })).nice();
 
-//Make the X axis, with the label a function of the data
+//Make the X axis and change the label according to the chosen category
 svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
@@ -87,6 +91,7 @@ svg.append("g")
       .style("text-anchor", "end")
       .text(function(d){ return setYAxisText();});
 
+//Make the dots and hide the ones that have null values//
 var dots = svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
@@ -95,6 +100,8 @@ var dots = svg.selectAll(".dot")
       .attr("cx", 150)
       .attr("cy", 50)
       .style("fill", function(d) { return color(d.Population); })
+      
+//Show the tooltip on mouseover//
       .on("mouseenter", function(d){        
          tooltip.transition(d)
           .delay(200)
@@ -109,25 +116,29 @@ var dots = svg.selectAll(".dot")
         console.log(d.name);
       })
       
-    //Remove nation info on mouseleave//
+//Remove tooltip on mouseout//
       .on("mouseleave", function(d){
          tooltip.transition().style("opacity", 0)
          console.log("mouseout");
       });
 
+//Move the dots according to the X and Y categories chosen by the user//
 dots.transition()
     .attr("cx", function(d) { console.log(d[selectedXAxis]); return x(d[selectedXAxis]); })
     .attr("cy", function(d) { console.log(d[selectedYAxis]); return y(d[selectedYAxis]); })
     .duration(3000)
     .ease("elastic");
-       
-  $( "#target" ).submit(function( event ) {
+
+//Update the chart when user submits the dropdown form//
+  $("#target").submit(function( event ) {
                         selectedYAxis = $("select#yOptions option:selected").val();
                         selectedXAxis = $("select#xOptions option:selected").val();
                         console.log(selectedXAxis + selectedYAxis);
                         update();
      }); //close selected X function
-  
+
+
+//Change X Axis label according to chosen category//
   function setXAxisText(d) {
     if (selectedXAxis  == "Obesity Rate") {
         return "obesity rates";
@@ -165,8 +176,9 @@ dots.transition()
         return "Percentage of GDP Spent on Military";
     }
   };
-  
-    function setYAxisText(d) {
+
+//Change Y Axis label according to chosen category//
+function setYAxisText(d) {
     if (selectedYAxis  == "Obesity Rate") {
         return "obesity rates";
     }else if(selectedYAxis  == "Health Expenditures"){
@@ -204,6 +216,7 @@ dots.transition()
     }
   };
 
+//Move the Y axis label to the inside of the axis when the numbers are too large//
 function labelPosition(d) {
     if ((selectedYAxis == "Area") || (selectedYAxis == "Population") || (selectedYAxis == "External Debt") || (selectedYAxis == "Per Capita GDP") || (selectedYAxis == "Airports")) {
         return 6;
@@ -212,6 +225,7 @@ function labelPosition(d) {
     }
 };
 
+//Hide dots with null values//
 function hideNulls(d) {
     if ((d[selectedXAxis] == null) || (d[selectedYAxis] == null)){
         return 0;
@@ -220,6 +234,7 @@ function hideNulls(d) {
     }
 };
 
+//Display the correct units for the chosen data in the tooltips (e.g., percentages, dollars, etc.)
 var xUnits = function () {
     if (selectedXAxis == "Obesity Rate"){
         return "%";
@@ -296,6 +311,7 @@ var yUnits = function () {
     }
 };
 
+//Update the chart (redraw axes, labels and dots) when user chooses X and Y categories and submits the dropdown form//
   function update() {
     
      x.domain(d3.extent(data, function(d) { return d[selectedXAxis]; })).nice();
@@ -330,6 +346,7 @@ var yUnits = function () {
 
 init();
 
+//Toggle the desktop and mobile intro sections when user clicks the 'About' button on mobile//
 $("#mobile-about-button").click(function() {
          $("#scatterplot-intro").fadeToggle("medium", "linear");
          $(".scatterplot").fadeToggle("medium", "linear");
