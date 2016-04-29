@@ -21,7 +21,7 @@ var svg = d3.select("#force")
     .classed("svg-content-responsive", true);
     
 var tooltip = d3.select("body").append("div")
-                .attr("class", "col-xs-12 tooltip")
+                .attr("class", "tooltip")
                 .style("position", "absolute")
                 .style("opacity", 0);
 
@@ -58,13 +58,12 @@ d3.json("js/force.json", function(error, graph) {
           .transition()
           .duration(300)
           .ease("back")
-          .attr("class", "summary")
           .style("opacity", 1)
           .style("left", "55%")
-          .style("bottom", "5%")
+          .style("top", "10%")
   
         tooltip.html(
-            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Controlled by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + "<div class='territory-info'>" + d.info + "</div>")
+            "<img class='map' src='" + d.map + "'/>"  + "<h3>" + d.name + "</h3>" + "Controlled by: " + d.governor + "</br>Per capita GDP: " + gdpNull(d) + "</br></br>" + "<div class='tooltip-text'>" + d.info + "</div>")
       
         console.log(d.name);
       })

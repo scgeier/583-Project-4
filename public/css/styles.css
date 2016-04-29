@@ -1,6 +1,5 @@
-/*body{
-    background:#dddddd;
-}*/
+
+/*Make responsive containers for the SVG canvases*/
 .svg-container {
     display: inline-block;
     position: relative;
@@ -16,35 +15,55 @@
     left: 0;
 }
 
+/*SCATTERPLOT STYLING*/
 
+
+/*Style the axes and dots*/
 .axis path,.axis line {
   fill: none;
-  stroke: #737373;
+  stroke: #404040;
   shape-rendering: crispEdges;
 }
 
 .dot {
-  stroke: #737373;
+  stroke: #595959;
   stroke-width:1px;
 }
 
+#scatterplot-dropdown{
+  margin-top:5%;
+}
+
+/*Hide the mobile introduction section on desktop, and vice versa*/
 @media screen and (min-width: 436px) and (max-width: 2000px) {
     #mobile-intro {
       display:none;
+      
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 435px) {
+@media screen and (max-width: 435px) {
     #scatterplot-intro, #mobile-close-button {
       display:none;
     }
 }
 
-
-#nation-table {
-    margin-left:5%;
-    margin-right:10%;
+@media screen and (max-width: 435px) {
+    #scatterplot-intro, #mobile-close-button {
+      display:none;
+    }
 }
+
+/*Move the introduction text up when the user clicks the About button on mobile*/
+@media screen and (max-width: 435px) {
+    .selected {
+      position:absolute;
+      bottom:100%;
+      padding:5%;
+    }
+}
+
+/*THE 'TERRITORIES' PAGE*/
 
 .node {
   stroke: #fff;
@@ -65,13 +84,6 @@
   padding-left:5%;
 }
 
-#territories-intro{
-  font-size:1.1em;
-}
-
-#scatterplot-dropdown{
-  margin-top:5%;
-}
 
 /*THE RAKNINGS TABLE*/
 
@@ -80,9 +92,14 @@
   padding-right:10%;
   height:26%;
   font-size:1.1em;
-
 }
 
+#nation-table {
+    margin-left:5%;
+    margin-right:10%;
+}
+
+/*Show a different intro section for mobile, because the hover features are disabled on mobile*/
 @media screen and (min-width: 436px) and (max-width: 2000px) {
     #rankings-introduction-mobile {
       display:none;
@@ -108,6 +125,7 @@
     }
 }
 
+/*Make the table horizontally scrollable, but keep the rest of the page in place*/
 section {
   width:100%;
   overflow-x:auto;
@@ -121,6 +139,7 @@ section {
   margin-left:5%;
 }
 
+/*Hide the appendix entries until the user hovers over the column buttons*/
 #appendix-population, #appendix-pop-growth, #appendix-migration, #appendix-infant, #appendix-life, #appendix-obesity, #appendix-GDP, #appendix-unemployment, #appendix-budget, #appendix-debt, #appendix-education, #appendix-military, #appendix-area, #appendix-fossil, #appendix-airports, #appendix-internet {
   display:none;
 }
@@ -134,29 +153,48 @@ section {
 
 @media screen and (min-width: 0px) and (max-width: 435px) {
     #appendix-population, #appendix-pop-growth, #appendix-migration, #appendix-infant, #appendix-life, #appendix-obesity, #appendix-GDP, #appendix-unemployment, #appendix-budget, #appendix-debt, #appendix-education, #appendix-military, #appendix-area, #appendix-fossil, #appendix-airports, #appendix-internet{
-      font-size:0.75em;
+      opacity:0;
     }
 }
 
 /*THE 'TERRITORIES' FORCE LAYOUT CHART*/
+
+.tooltip{
+  margin:2%;
+}
+
+@media screen and (max-width: 435px) {
+    .tooltip {
+      top:65% !important;
+      left:10% !important;
+    }
+}
 
 .map{
  float:left;
  padding-right:10px;
 }
 
-.summary{
-  margin:2%;
-}
-
-@media screen and (min-width: 0px) and (max-width: 435px) {
-    .tooltip {
-      zoom:70%;
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width: 435px) {
-    .map, .territory-info {
+/*Hide the tooltip maps and summary paragraphs on mobile*/
+@media screen and (max-width: 435px) {
+    .map, .tooltip-text {
       display:none;
     }
 }
+
+@media screen and (max-width: 435px) {
+    .chart-description{
+      width:95%;
+      margin-left:2%;
+    }
+}
+
+#territories-intro {
+  font-size:1.1em;
+}
+
+.tooltip-text{
+    font-size:1.2em;
+}
+
+

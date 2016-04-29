@@ -4,6 +4,7 @@ $(document).ready(function(){
  $("#population-info").mouseover(function(){
          $('#appendix-population').toggle(200);
          $('#rankings-intro-section').toggle(200);
+         $('#rankings-intro-section').addClass("mobile");
     });
   $("#population-info").mouseout(function(){
          $('#appendix-population').toggle(200);

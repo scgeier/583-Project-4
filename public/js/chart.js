@@ -332,13 +332,17 @@ init();
 
 $("#mobile-about-button").click(function() {
          $("#scatterplot-intro").fadeToggle("medium", "linear");
+         $(".scatterplot").fadeToggle("medium", "linear");
          $(this).toggle();
          $("#mobile-close-button").toggle();
+         $("#scatterplot-intro").addClass("selected");
      });
 
 $("#mobile-close-button").click(function() {
          $("#scatterplot-intro").fadeToggle("medium", "linear");
+         $(".scatterplot").fadeToggle("medium", "linear");
          $(this).toggle();
+         $("#mobile-about-button").toggle();
      });
 
 });//close document ready function
